@@ -8,7 +8,7 @@ function Header() {
       <div className="_container">
         <div className="head-wrap">
           <Link href="/">
-            <img src="/logo.svg" />
+            <img alt="logo" src="/logo.svg" />
           </Link>
           <nav>
             <Link href="#">Purposes</Link>

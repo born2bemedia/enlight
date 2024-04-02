@@ -6,7 +6,7 @@ import { useRef, useState, useEffect } from "react";
 function HomeFifth() {
   const sectionRef = useRef(null);
   const blockRef = useRef(null);
-  const [blockStyle, setBlockStyle] = useState({});
+  const [blockClass, setblockClass] = useState("");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,24 +16,16 @@ function HomeFifth() {
 
         if (sectionRect.top >= 0) {
           // Section has not been reached, block is in default state
-          setBlockStyle({});
+          setblockClass("");
         } else if (sectionRect.bottom <= window.innerHeight) {
           // Bottom of the section is at or above the bottom of the viewport
-          setBlockStyle({
-            position: "absolute",
-            bottom: "0",
-            top: "auto",
-          });
+          setblockClass("is-absolute");
         } else if (
           sectionRect.top < 0 &&
           sectionRect.bottom > window.innerHeight
         ) {
           // Section is partially in view, block should be fixed
-          setBlockStyle({
-            position: "fixed",
-            top: "0",
-            width: "calc(1375px / 2)", // Adjust width as needed to match your layout
-          });
+          setblockClass("is-fixed");
         }
       }
     };
@@ -51,7 +43,7 @@ function HomeFifth() {
               Effectively solve key marketing problems every crypto projects
               faces
             </h2>
-            <div className="fixed-block" ref={blockRef} style={blockStyle}>
+            <div className={`fixed-block ${blockClass}`} ref={blockRef}>
               <h2>
                 Effectively solve key marketing problems every crypto projects
                 faces

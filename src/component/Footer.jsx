@@ -8,7 +8,7 @@ function Footer() {
       <div className="_container">
         <div className="footer-top">
           <Link href="/">
-            <img src="/logo.svg" />
+            <img alt="logo" src="/logo.svg" />
           </Link>
           <nav>
             <Link href="#">Products</Link>
