@@ -988,6 +988,7 @@
                     align-items: flex-start;
                     padding: 80px 85px 150px 85px;
                     position: relative;
+                    height: 100%;
                     @media (max-width:992px){
                         flex-direction: column;
                         gap:40px;
