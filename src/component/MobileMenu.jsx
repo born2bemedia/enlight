@@ -13,7 +13,7 @@ function MobileMenu() {
   };
 
   useEffect(() => {
-    setMenuOpened(false);
+    setOpened(false);
   }, [pathname]);
 
   return (
