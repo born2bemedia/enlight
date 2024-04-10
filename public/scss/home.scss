@@ -18,7 +18,7 @@
             top:unset;
             bottom: 0;
             height: 90%;
-            width: 70%;
+            width: 50%;
             display: flex;
             align-items: flex-end;
         }
@@ -186,6 +186,10 @@
         font-style: normal;
         font-weight: 500;
         line-height: 120%;
+        @media (max-width:1375px){
+            font-size: 32px;
+        }
+
         @media (max-width:992px){
             font-size: 36px;
         }
@@ -205,20 +209,21 @@
         display: flex;
         align-items: center;
         gap:110px;
-        @media (max-width:992px){
+
+        @media (max-width:1375px){
             flex-direction: column;
             gap: 40px;
         }
     }
     &__col-01{
         width: calc(100% - 815px);
-        @media (max-width:992px){
+        @media (max-width:1375px){
             width: 100%;
         }
     }
     &__col-02{
         width: 705px;
-        @media (max-width:992px){
+        @media (max-width:1375px){
             width: 100%;
         }
         >div{
@@ -343,7 +348,7 @@
                 top: 0; 
                 width: calc(1375px / 2);
                 @media (max-width:1375px){
-                    width: calc(1110px / 2);
+                    width: 470px;
                 }
             }
             &.is-absolute{
@@ -355,6 +360,9 @@
                 width: 545px;
                 height: 545px;
                 position: relative;
+                @media (max-width:1375px){
+                    width: 100%;
+                }
                 @media (max-width:992px){
                     display: none;
                 }
@@ -872,9 +880,9 @@
 }
 
 .home-seven{
-    margin: 150px 0;
+    margin: 0 0 150px 0;
     @media (max-width:992px){
-        margin: 80px 0 150px 0;
+        margin: 0 0 150px 0;
     }
     h2{
         color: #F0F0F7;
@@ -884,6 +892,10 @@
         font-style: normal;
         font-weight: 500;
         line-height: 120%;
+        @media (max-width:1375px){
+            font-size: 36px;
+            margin-bottom: 48px;
+        }
         @media (max-width:992px){
             font-size: 36px;
             margin-bottom: 48px;
@@ -989,7 +1001,7 @@
                     padding: 80px 85px 150px 85px;
                     position: relative;
                     height: 100%;
-                    @media (max-width:992px){
+                    @media (max-width:1375px){
                         flex-direction: column;
                         gap:40px;
                         padding: 80px 24px;
@@ -1007,7 +1019,7 @@
                         position: relative;
                         z-index: 2;
                         width: calc(100% - 906px);
-                        @media (max-width:992px){
+                        @media (max-width:1375px){
                             width: 100%;
                         }
                         h3{
@@ -1029,6 +1041,9 @@
                         gap:32px;
                         position: relative;
                         z-index: 2;
+                        @media (max-width:1375px){
+                            width: 100%;
+                        }
                         @media (max-width:992px){
                             width: 100%;
                             flex-direction: column;
