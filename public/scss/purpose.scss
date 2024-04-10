@@ -434,7 +434,7 @@
             text-align: center;
         }
     }
-    a{
+    button{
         position: relative;
         z-index: 2;
         @media (max-width:992px){
@@ -504,6 +504,10 @@
             }
         }
 
+        >div{
+            width: 100%;
+        }
+
         .form-sent{
             display: flex;
             flex-direction: column;
@@ -537,6 +541,7 @@
             display: flex;
             gap:32px;
             flex-wrap: wrap;
+            width: 100%;
             >div{
                 width: calc(50% - 16px);
                 position: relative;
