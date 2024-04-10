@@ -2,12 +2,13 @@ import Image from "next/image";
 import "@/public/scss/home.scss";
 import HomeFirst from "../component/home/HomeFirst";
 import HomeSecond from "../component/home/HomeSecond";
-import HomeThird from "../component/home/HomeThird";
 import HomeFourth from "../component/home/HomeFourth";
-import HomeFifth from "../component/home/HomeFifth";
 import HomeSixth from "../component/home/HomeSixth";
-import HomeSeven from "../component/home/HomeSeven";
+import HomeThird from "../component/home/HomeThird";
+import HomeEight from "../component/home/HomeEight";
+import HomeNine from "../component/home/HomeNine";
 import HomeLast from "../component/home/HomeLast";
+import HomeFifth from "../component/home/HomeFifth";
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
       <HomeFourth/>
       <HomeFifth/>
       <HomeSixth/>
-      <HomeSeven/>
+      
+      <HomeEight/>
+      <HomeNine/>
       <HomeLast/>
     </>
   );

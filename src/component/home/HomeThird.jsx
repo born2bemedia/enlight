@@ -1,50 +1,133 @@
 "use client";
-import { RevealWrapper } from "next-reveal";
+import { RevealWrapper, RevealList } from "next-reveal";
 import Image from "next/image";
-import Link from "next/link";
-import React from "react";
+import { useRef, useState, useEffect } from "react";
 
 function HomeThird() {
+  const sectionRef = useRef(null);
+  const blockRef = useRef(null);
+  const [blockClass, setblockClass] = useState("");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (sectionRef.current && blockRef.current) {
+        const sectionRect = sectionRef.current.getBoundingClientRect();
+        const blockRect = blockRef.current.getBoundingClientRect();
+
+        if (sectionRect.top >= 0) {
+          // Section has not been reached, block is in default state
+          setblockClass("");
+        } else if (sectionRect.bottom <= window.innerHeight) {
+          // Bottom of the section is at or above the bottom of the viewport
+          setblockClass("is-absolute");
+        } else if (
+          sectionRect.top < 0 &&
+          sectionRect.bottom > window.innerHeight
+        ) {
+          // Section is partially in view, block should be fixed
+          setblockClass("is-fixed");
+        }
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <section className="home-third">
+    <section className="home-third" ref={sectionRef}>
       <div className="_container">
         <div className="home-third__body">
-          <RevealWrapper origin="bottom" delay={0} className="image-wrap">
-            <Image
-              src={"/images/home/third-block-image.png"}
-              width={720}
-              height={475}
-            />
-          </RevealWrapper>
-          <RevealWrapper origin="bottom" delay={0}>
-            <h2>
-              Simply manage everything: <br />
-              from tasks to marketing budgets.
+          <div className="home-third__col-01">
+            <h2 className="mobile-header">
+              Enlight builds marketing for crypto projects on:
             </h2>
-          </RevealWrapper>
-          <RevealWrapper origin="bottom" delay={0}>
-            <p>We have taken care of everything!</p>
-          </RevealWrapper>
-
-          <RevealWrapper origin="bottom" delay={0}>
-            <Link href="#" className="main-button">
-              <span>
-                Get Started
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                >
-                  <path
-                    d="M18.636 15.6699L20.352 10.5199C21.852 6.02194 22.602 3.77294 21.414 2.58594C20.227 1.39894 17.978 2.14794 13.479 3.64794L8.32997 5.36394C4.69997 6.57394 2.88497 7.17994 2.36997 8.06694C2.12908 8.48152 2.0022 8.95246 2.0022 9.43194C2.0022 9.91142 2.12908 10.3824 2.36997 10.7969C2.88497 11.6849 4.69997 12.2899 8.32997 13.5009C8.77997 13.6509 9.28697 13.5429 9.62397 13.2099L15.13 7.75494C15.2023 7.67634 15.2899 7.61324 15.3874 7.56945C15.4848 7.52566 15.5901 7.5021 15.697 7.50019C15.8038 7.49827 15.9099 7.51805 16.0089 7.55831C16.1078 7.59858 16.1976 7.6585 16.2727 7.73446C16.3479 7.81041 16.4068 7.90082 16.446 8.00021C16.4852 8.0996 16.5039 8.20591 16.5008 8.31271C16.4977 8.41951 16.473 8.52457 16.4282 8.62156C16.3834 8.71854 16.3193 8.80542 16.24 8.87694L10.824 14.2429C10.6433 14.4276 10.5174 14.6587 10.4602 14.9106C10.403 15.1625 10.4168 15.4254 10.5 15.6699C11.71 19.2999 12.316 21.1159 13.203 21.6319C13.6178 21.8727 14.0889 21.9995 14.5685 21.9995C15.0481 21.9995 15.5192 21.8727 15.934 21.6319C16.821 21.1159 17.425 19.3009 18.636 15.6699Z"
-                    fill="#0F0F0F"
+            <div className={`fixed-block ${blockClass}`} ref={blockRef}>
+              <h2>Enlight builds marketing for crypto projects on:</h2>
+              <div className="image-wrap">
+                <div>
+                  <Image
+                    style={{
+                      animation: `floatAnimation 5s infinite ease-in-out`,
+                      animationDelay: "0s",
+                    }}
+                    src={"/images/home/home-third.png"}
+                    width={472}
+                    height={528}
                   />
-                </svg>
-              </span>
-            </Link>
-          </RevealWrapper>
+                </div>
+                <div>
+                  <Image
+                    style={{
+                      animation: `floatAnimation 5s infinite ease-in-out`,
+                      animationDelay: "1s",
+                    }}
+                    src={"/images/home/home-third-coins.png"}
+                    width={542}
+                    height={496}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="home-third__col-02">
+            <div className="column">
+              <div>
+                <h3>01</h3>
+                <h4>Target Market Analysis and Influencer Selection</h4>
+                <ul>
+                  <li>Thorough analysis of target market demographics and preferences</li>
+                  <li>Identification and engagement of influential figures and crypto experts</li>
+                  <li>Selection of reputable media platforms for maximum impact</li>
+                </ul>
+                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+              </div>
+              <div>
+                <h3>02</h3>
+                <h4>
+                Tailored Content Strategy 
+                </h4>
+                <ul>
+                  <li>The practical content strategy should be aligned with project goals and audience interests</li>
+                  <li>Creation of effective, data-driven and context-relevant content to engage target audiences</li>
+                  <li>Integration of SEO best practices to comply with search engine requirements, enhance visibility and reach</li>
+                </ul>
+                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+              </div>
+              <div>
+                <h3>03</h3>
+                <h4>Compliance Assurance</h4>
+                <ul>
+                  <li>Comprehensive adherence to regulatory requirements and industry standards in content creation and advertising creatives</li>
+                  <li>Implementation of measures to ensure transparency and legal compliance</li>
+                  <li>Safeguarding brand reputation through ethical marketing practices</li>
+                </ul>
+                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+              </div>
+              <div>
+                <h3>04</h3>
+                <h4>
+                Guest Posting on Trusted Media
+                </h4>
+                <ul>
+                  <li>Strategic placement of content on reputable niche media platforms</li>
+                  <li>Cultivation of brand authority and thought leadership within the crypto space</li>
+                  <li>Leveraging guest posting opportunities for enhanced visibility and credibility</li>
+                </ul>
+                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+              </div>
+              <div>
+                <h3>05</h3>
+                <h4>Results Analysis and Strategy Optimization</h4>
+                <ul>
+                  <li>In-depth analysis of campaign performance metrics and KPIs</li>
+                  <li>Iterative optimization of marketing strategies based on data-driven insights</li>
+                  <li>Intuitive dashboard for visualising and simplifying campaign analysis and optimization processes, enabling seamless integration of all marketing channels for enhanced efficiency and effectiveness.</li>
+                </ul>
+                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

@@ -15,13 +15,10 @@ function HomeFirst() {
       >
         <div
           className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "0s",
-          }}
+
         >
-            <Image
-            src={"/images/home/home-first-mob.png"}
+          <Image
+            src={"/images/home/home-first.webp"}
             width={500}
             height={250}
           />
@@ -33,7 +30,7 @@ function HomeFirst() {
             animationDelay: "0s",
           }}
         >
-            <Image
+          <Image
             src={"/images/home/coins-mobile.png"}
             width={500}
             height={250}
@@ -49,15 +46,11 @@ function HomeFirst() {
       >
         <div
           className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "0s",
-          }}
         >
           <Image
-            src={"/images/home/home-first.png"}
-            width={1080}
-            height={930}
+            src={"/images/home/home-first.webp"}
+            width={760}
+            height={550}
           />
         </div>
         <div
@@ -76,7 +69,7 @@ function HomeFirst() {
             animationDelay: "2s",
           }}
         >
-          <Image src={"/images/home/coin2.png"} width={200} height={200} />
+          <Image src={"/images/home/coin2.png"} width={300} height={300} />
         </div>
         <div
           className="image-container"
@@ -101,16 +94,15 @@ function HomeFirst() {
         <div className="home-first__body">
           <RevealWrapper origin="bottom" delay={0}>
             <h1>
-              Your go-to crypto <br />
-              marketing platform
+              New-level marketing <br />
+              for crypto projects
             </h1>
           </RevealWrapper>
           <RevealWrapper origin="bottom" delay={0}>
             <p>
-              Streamline all your crypto marketing tasks, analyse, scale, and
-              optimise <br />
-              your efforts for unprecedented success in a single, flexible
-              interface.
+              Enlight - innovative crypto marketing strategies designed to
+              cultivate trust, engage <br />influential voices, foster connections,
+              and ignite organic buzz around your project.
             </p>
           </RevealWrapper>
           <RevealWrapper origin="bottom" delay={0}>

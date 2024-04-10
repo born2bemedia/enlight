@@ -26,6 +26,24 @@ header{
                 }
             }
         }
+        .login{
+            color: var(--1, #F0F0F7);
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            border-radius: 8px;
+            background: #2A2A2A;
+            padding: 14px 24px;
+            &:hover{
+                color: #0F0F0F;
+                background: var(--5, linear-gradient(137deg, #333CEF 2.76%, #0B98FF 32.42%, #9CE500 62.07%, #ACD64E 91.73%));
+            }
+            @media (max-width:992px){
+               padding: 10px 24px;
+            }
+
+        }
         .mobile-menu-button{
             display: none;
             @media (max-width:992px){

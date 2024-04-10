@@ -10,7 +10,7 @@ function HomeLast() {
         <div className="home-last__body">
           <RevealWrapper origin="bottom">
             <h2>
-              Assisting your progress <br />
+              Assisting your <br />progress 
               at every turn
             </h2>
           </RevealWrapper>

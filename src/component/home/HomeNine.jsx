@@ -3,20 +3,20 @@ import { RevealList, RevealWrapper } from "next-reveal";
 import Image from "next/image";
 import React from "react";
 
-function HomeSeven() {
+function HomeNine() {
   return (
-    <section className="home-seven">
+    <section className="home-nine">
       <div className="_container">
-        <div className="home-seven__body">
+        <div className="home-nine__body">
           <RevealWrapper origin="bottom" className="image-wrap">
             <Image
-              src={"/images/home/home-seven.png"}
+              src={"/images/home/home-nine.png"}
               width={620}
               height={350}
             />
           </RevealWrapper>
 
-          <div className="home-seven__col-01">
+          <div className="home-nine__col-01">
             <RevealWrapper origin="bottom">
               <h2>
                 Estimate your <br />
@@ -25,7 +25,7 @@ function HomeSeven() {
               </h2>
             </RevealWrapper>
           </div>
-          <div className="home-seven__col-02">
+          <div className="home-nine__col-02">
             <div>
               <p>Unlock potential marketing budget</p>
               <h3>up to 50% </h3>
@@ -57,4 +57,4 @@ function HomeSeven() {
   );
 }
 
-export default HomeSeven;
+export default HomeNine;

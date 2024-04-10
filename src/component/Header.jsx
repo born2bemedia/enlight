@@ -12,13 +12,15 @@ function Header() {
           </Link>
           <nav>
             <Link href="#">Purposes</Link>
-            <Link href="#">Modules</Link>
+            <Link href="#">Services</Link>
             <Link href="#">Resources</Link>
-            <Link href="#">Pricing</Link>
+            <Link href="#">Team</Link>
             <Link href="#">Get Started</Link>
-            <Link href="#">Log In</Link>
-            <Link href="#">Quick Contact</Link>
+            <Link href="#">Contact Us</Link>
           </nav>
+
+          <Link href="#" className="login">Log In</Link>
+
           <span className="mobile-menu-button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
