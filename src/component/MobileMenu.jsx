@@ -1,14 +1,20 @@
 "use client";
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 function MobileMenu() {
   const [opened, setOpened] = useState(false);
+  const pathname = usePathname();
 
   const menuOpen = () => {
     setOpened(!opened);
   };
+
+  useEffect(() => {
+    setMenuOpened(false);
+  }, [pathname]);
 
   return (
     <>
