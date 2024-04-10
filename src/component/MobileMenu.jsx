@@ -65,7 +65,7 @@ function MobileMenu() {
       {opened && (
         <div className="mobile-menu">
           
-          <Link href="#">Purposes</Link>
+          <Link href="/purpose">Purposes</Link>
           <Link href="#">Services</Link>
           <Link href="#">Resources</Link>
           <Link href="#">Team</Link>

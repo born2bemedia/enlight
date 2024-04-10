@@ -12,7 +12,7 @@ function Header() {
             <img alt="logo" src="/logo.svg" />
           </Link>
           <nav>
-            <Link href="#">Purposes</Link>
+            <Link href="/purpose">Purposes</Link>
             <Link href="#">Services</Link>
             <Link href="#">Resources</Link>
             <Link href="#">Team</Link>

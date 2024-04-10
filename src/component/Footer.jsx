@@ -11,17 +11,13 @@ function Footer() {
             <img alt="logo" src="/logo.svg" />
           </Link>
           <nav>
-            <Link href="#">Products</Link>
-            <Link href="#">Modules</Link>
-            <Link href="#">Pricing</Link>
-
+            <Link href="/purpose">Purposes</Link>
+            <Link href="#">Services</Link>
             <Link href="#">Resources</Link>
-            <Link href="#">About Us</Link>
-            <Link href="#">Contact Us</Link>
 
-            <Link href="#">Log In</Link>
+            <Link href="#">Team</Link>
             <Link href="#">Get Started</Link>
-            <Link href="#">Quick Contact</Link>
+            <Link href="#">Contact Us</Link>
           </nav>
           <div className="footer-contacts">
             <Link href="#">
