@@ -9,6 +9,10 @@
 body { 
 	margin: 0;
 	background: #0F0F0F;
+	padding-top: 88px;
+	@media (max-width:992px){
+		
+	}
 }
 *{
 	outline:none!important;
