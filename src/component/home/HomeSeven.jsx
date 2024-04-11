@@ -56,8 +56,8 @@ function HomeSeven() {
               <div className="problem-inner">
                 <Image
                   src={"/images/home/problem1.webp"}
-                  width={470}
-                  height={250}
+                  width={370}
+                  height={235}
                 />
                 <div className="left">
                   <h3>
@@ -92,8 +92,8 @@ function HomeSeven() {
               <div className="problem-inner">
                 <Image
                   src={"/images/home/problem2.webp"}
-                  width={470}
-                  height={250}
+                  width={370}
+                  height={235}
                 />
                 <div className="left">
                   <h3>
@@ -128,8 +128,8 @@ function HomeSeven() {
               <div className="problem-inner">
                 <Image
                   src={"/images/home/problem3.webp"}
-                  width={470}
-                  height={250}
+                  width={370}
+                  height={235}
                 />
                 <div className="left">
                   <h3>
@@ -163,8 +163,8 @@ function HomeSeven() {
               <div className="problem-inner">
                 <Image
                   src={"/images/home/problem4.webp"}
-                  width={470}
-                  height={250}
+                  width={370}
+                  height={235}
                 />
                 <div className="left">
                   <h3>Strategies</h3>
@@ -195,8 +195,8 @@ function HomeSeven() {
               <div className="problem-inner">
                 <Image
                   src={"/images/home/problem5.webp"}
-                  width={470}
-                  height={250}
+                  width={370}
+                  height={235}
                 />
                 <div className="left">
                   <h3>
@@ -231,8 +231,8 @@ function HomeSeven() {
               <div className="problem-inner">
                 <Image
                   src={"/images/home/problem6.webp"}
-                  width={470}
-                  height={250}
+                  width={370}
+                  height={235}
                 />
                 <div className="left">
                   <h3>
