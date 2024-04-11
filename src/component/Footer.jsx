@@ -12,7 +12,7 @@ function Footer() {
           </Link>
           <nav>
             <Link href="/purpose">Purposes</Link>
-            <Link href="#">Services</Link>
+            <Link href="/services">Services</Link>
             <Link href="#">Resources</Link>
 
             <Link href="#">Team</Link>
