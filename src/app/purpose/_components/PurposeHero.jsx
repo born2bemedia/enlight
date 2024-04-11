@@ -9,97 +9,28 @@ function PurposeHero() {
     <section className="purpose-hero">
       <RevealList
         origin="bottom"
-        interval={100}
-        delay={0}
-        className="images-wrap-mob"
-      >
-        <div className="image-container">
-          <Image
-            src={"/images/purpose/purpose-hero-mob.png"}
-            width={500}
-            height={250}
-          />
-        </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "0s",
-          }}
-        >
-          <Image
-            src={"/images/purpose/coin-mobile1.png"}
-            width={500}
-            height={250}
-          />
-        </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "0s",
-          }}
-        >
-          <Image
-            src={"/images/purpose/coin-mobile2.png"}
-            width={500}
-            height={250}
-          />
-        </div>
-      </RevealList>
-
-      <RevealList
-        origin="bottom"
-        interval={100}
+        interval={0}
         delay={0}
         className="images-wrap"
       >
         <div className="image-container">
           <Image
-            src={"/images/purpose/purpose-hero.png"}
-            width={770}
-            height={550}
+            src={"/images/purpose/purpose-hero.webp"}
+            width={816}
+            height={470}
           />
         </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "1s",
-          }}
-        >
-          <Image src={"/images/purpose/coin1.png"} width={250} height={250} />
+        <div className="image-container">
+          <Image
+            src={"/images/purpose/purpose-hero-coins.webp"}
+            width={625}
+            height={323}
+            style={{
+              animation: `floatAnimation 5s infinite ease-in-out`,
+              animationDelay: "0s",
+            }}
+          />
         </div>
-
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "2s",
-          }}
-        >
-          <Image src={"/images/purpose/coin2.png"} width={150} height={150} />
-        </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "3s",
-          }}
-        >
-          <Image src={"/images/purpose/coin3.png"} width={160} height={160} />
-        </div>
-
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "3s",
-          }}
-        >
-          <Image src={"/images/purpose/coin4.png"} width={200} height={200} />
-        </div>
-        
       </RevealList>
       <div className="_container">
         <div className="purpose-hero__body">
@@ -115,7 +46,6 @@ function PurposeHero() {
               and technologies to drive your project to the desired results.
             </p>
           </RevealWrapper>
-
         </div>
       </div>
     </section>

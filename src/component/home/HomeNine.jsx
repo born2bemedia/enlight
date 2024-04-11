@@ -10,7 +10,7 @@ function HomeNine() {
         <div className="home-nine__body">
           <RevealWrapper origin="bottom" className="image-wrap">
             <Image
-              src={"/images/home/home-nine.png"}
+              src={"/images/home/home-nine.webp"}
               width={620}
               height={350}
             />

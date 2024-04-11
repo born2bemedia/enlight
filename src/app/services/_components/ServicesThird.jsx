@@ -12,8 +12,8 @@ function ServicesThird() {
           <RevealWrapper origin="bottom" delay={0} className="image-wrap">
             <Image
               src={"/images/home/third-block-image.png"}
-              width={720}
-              height={475}
+              width={592}
+                height={510}
             />
           </RevealWrapper>
           <RevealWrapper origin="bottom" delay={0}>

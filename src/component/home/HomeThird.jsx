@@ -51,20 +51,9 @@ function HomeThird() {
                       animation: `floatAnimation 5s infinite ease-in-out`,
                       animationDelay: "0s",
                     }}
-                    src={"/images/home/home-third.png"}
+                    src={"/images/home/home-third.webp"}
                     width={472}
                     height={528}
-                  />
-                </div>
-                <div>
-                  <Image
-                    style={{
-                      animation: `floatAnimation 5s infinite ease-in-out`,
-                      animationDelay: "1s",
-                    }}
-                    src={"/images/home/home-third-coins.png"}
-                    width={542}
-                    height={496}
                   />
                 </div>
               </div>

@@ -235,6 +235,7 @@
                     margin: 0 0 16px 0;
                 }
             }
+            
         }
         p{
             font-size: 16px;
@@ -243,6 +244,14 @@
             text-align: left;
             color: #F0F0F7;
             margin: 0;
+            &.mobile-subheader{
+                display: none;
+                @media (max-width:992px){
+                    display: block;
+                    font-size: 36px;
+                    margin: 0 0 16px 0;
+                }
+            }
         }
         .fixed-block{
             @media (max-width:992px){
@@ -265,6 +274,7 @@
                 width: 545px;
                 height: 545px;
                 position: relative;
+                margin-top: 40px;
                 @media (max-width:1375px){
                     width: 100%;
                 }
@@ -282,6 +292,7 @@
                     }
                     img{
                         height: auto;
+                        width: 100%;
                     }
                 }
             }
@@ -387,12 +398,17 @@
         position: relative;
         overflow: hidden;
         background: linear-gradient(117deg, #333CEF 8.25%, #0B98FF 37.98%, #9CE500 67.71%, #ACD64E 97.44%);
+        min-height: 550px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         @media (max-width:1375px){
             padding: 100px 60px;
         }
         @media (max-width:992px){
             border-radius: 0;
             padding: 100px 16px 290px 16px;
+            align-items: center;
         }
         &:before{
             content: '';
@@ -408,14 +424,16 @@
         >div{
             position: relative;
             z-index: 2;
+            display: flex;
         }
         .image-wrap{
             position: absolute;
-            right: 0;
+            right: 84px;
             bottom: 0;
             display: flex;
             @media (max-width:1375px){
                 width: 50%;
+                right: 0;
                 img{
                     width: 100%;
                     height: auto;
@@ -428,6 +446,8 @@
                     width: auto;
                     height: auto;
                     max-height: 350px;
+                    width: 100%;
+                    margin-bottom: -70px;
                 }
             }
         }

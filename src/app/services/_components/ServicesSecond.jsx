@@ -59,6 +59,19 @@ function ServicesSecond() {
                   Let us assess your project and determine the best course of
                   action. Choose the stage that best describes your project.
                 </p>
+                <div className="image-wrap">
+                <div>
+                  <Image
+                    style={{
+                      animation: `floatAnimation 5s infinite ease-in-out`,
+                      animationDelay: "0s",
+                    }}
+                    src={"/images/home/home-third.webp"}
+                    width={472}
+                    height={528}
+                  />
+                </div>
+              </div>
               </div>
             </div>
             <div className="services-second__col-02">

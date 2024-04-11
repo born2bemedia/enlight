@@ -11,83 +11,25 @@ function HomeFirst() {
         origin="bottom"
         interval={100}
         delay={0}
-        className="images-wrap-mob"
-      >
-        <div
-          className="image-container"
-
-        >
-          <Image
-            src={"/images/home/home-first.webp"}
-            width={500}
-            height={250}
-          />
-        </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "0s",
-          }}
-        >
-          <Image
-            src={"/images/home/coins-mobile.png"}
-            width={500}
-            height={250}
-          />
-        </div>
-      </RevealList>
-
-      <RevealList
-        origin="bottom"
-        interval={100}
-        delay={0}
         className="images-wrap"
       >
-        <div
-          className="image-container"
-        >
+        <div className="image-container">
           <Image
             src={"/images/home/home-first.webp"}
-            width={760}
-            height={550}
+            width={816}
+            height={470}
           />
         </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "1s",
-          }}
-        >
-          <Image src={"/images/home/coin1.png"} width={200} height={200} />
-        </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "2s",
-          }}
-        >
-          <Image src={"/images/home/coin2.png"} width={300} height={300} />
-        </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "3s",
-          }}
-        >
-          <Image src={"/images/home/coin3.png"} width={145} height={160} />
-        </div>
-        <div
-          className="image-container"
-          style={{
-            animation: `floatAnimation 5s infinite ease-in-out`,
-            animationDelay: "0s",
-          }}
-        >
-          <Image src={"/images/home/coin4.png"} width={180} height={195} />
+        <div className="image-container">
+          <Image
+            src={"/images/home/coins-hero.webp"}
+            width={625}
+            height={323}
+            style={{
+              animation: `floatAnimation 5s infinite ease-in-out`,
+              animationDelay: "0s",
+            }}
+          />
         </div>
       </RevealList>
       <div className="_container">
@@ -101,8 +43,9 @@ function HomeFirst() {
           <RevealWrapper origin="bottom" delay={0}>
             <p>
               Enlight - innovative crypto marketing strategies designed to
-              cultivate trust, engage <br />influential voices, foster connections,
-              and ignite organic buzz around your project.
+              cultivate trust, engage <br />
+              influential voices, foster connections, and ignite organic buzz
+              around your project.
             </p>
           </RevealWrapper>
           <RevealWrapper origin="bottom" delay={0}>
