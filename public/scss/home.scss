@@ -353,7 +353,7 @@
             }
             &.is-fixed{
                 position: fixed;
-                top: 0; 
+                top: 88px; 
                 width: calc(1375px / 2);
                 @media (max-width:1375px){
                     width: 470px;

@@ -1,11 +1,12 @@
 "use client";
+import React, { useState } from "react";
 import FormPopup from "@/src/component/FormPopup";
 import { RevealWrapper } from "next-reveal";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
 
-function ServicesThird() {
+
+function SingleServiceLast() {
   const [popupOpened, setPopupOpened] = useState(false);
 
   const handlePopup = () => {
@@ -14,27 +15,20 @@ function ServicesThird() {
 
   return (
     <>
-      <section className="services-third">
+      <section className="service-last">
         <div className="_container">
-          <div className="services-third__body">
-            <RevealWrapper origin="bottom" delay={0} className="image-wrap">
-              <Image
-                src={"/images/home/third-block-image.png"}
-                width={592}
-                height={510}
-              />
-            </RevealWrapper>
+          <div className="service-last__body">
             <RevealWrapper origin="bottom" delay={0}>
               <h2>
-                Need <br />
-                assistance?
+                Let us talk about <br />
+                community building for<br />
+                your crypto project
               </h2>
             </RevealWrapper>
-
             <RevealWrapper origin="bottom" delay={0}>
               <button onClick={() => handlePopup()} className="main-button">
                 <span>
-                  Get Started
+                Contact Enlight community expert
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -58,4 +52,4 @@ function ServicesThird() {
   );
 }
 
-export default ServicesThird;
+export default SingleServiceLast;

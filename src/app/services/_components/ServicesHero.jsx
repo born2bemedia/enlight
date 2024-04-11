@@ -39,7 +39,7 @@ function ServicesHero() {
               reputation and attracting potential investors and stakeholders.
             </p>
             <div className="link-wrap">
-              <Link href="#" className="main-button">
+              <Link href="/community-building" className="main-button">
                 <span>
                   Learn more
                   <svg
