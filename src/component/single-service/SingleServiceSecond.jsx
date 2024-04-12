@@ -13,7 +13,7 @@ function SingleServiceSecond({ title, subtitle, challenges}) {
           origin="bottom"
           interval={0}
           delay={0}
-          className="service-second__body"
+          className={`service-second__body ${challenges.length > 4 ? 'five-cols' : ''}`}
         >
           {challenges.map((item, index) => (
             <div key={index}>

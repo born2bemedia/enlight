@@ -8,86 +8,86 @@ export const communityBuildingServices = [
   },
   {
     id: 2,
-    title: "Market Context Analysis",
+    title: "Influencer Collaborations",
     content:
-      "We review industry trends to ensure our community-building aligns with the current landscape.",
+      "We partner with industry influencers to boost your brand's reach and credibility.",
     icon: "icon2.svg",
   },
   {
     id: 3,
-    title: "Content Strategy",
+    title: "Market Context Analysis",
     content:
-      "We develop a plan to keep your audience engaged and coming back for more.",
+      "We review industry trends to ensure our community-building aligns with the current landscape.",
     icon: "icon3.svg",
   },
   {
     id: 4,
-    title: "Tone of Voice Crafting",
+    title: "Feedback Collection",
     content:
-      "We create a unique voice for your brand to connect authentically with your audience.",
+      "We gather and analyse community feedback to refine our strategies.",
     icon: "icon4.svg",
   },
   {
     id: 5,
-    title: "Negative Feedback Management",
+    title: "Content Strategy",
     content:
-      "We handle criticism gracefully, turning it into opportunities for growth.",
+      "We develop a plan to keep your audience engaged and coming back for more.",
     icon: "icon5.svg",
   },
   {
     id: 6,
-    title: "Trust Building",
+    title: "Guideline Development",
     content:
-      "We prioritise transparency, consistency, and reliability to foster credibility and loyalty.",
+      "We establish clear community guidelines to maintain a positive environment.",
     icon: "icon6.svg",
   },
   {
     id: 7,
-    title: "Engagement Initiatives",
+    title: "Tone of Voice Crafting",
     content:
-      "We create interactive activities to encourage participation and belonging.",
+      "We create a unique voice for your brand to connect authentically with your audience.",
     icon: "icon7.svg",
   },
   {
     id: 8,
-    title: "Influencer Collaborations",
+    title: "Moderation",
     content:
-      "We partner with industry influencers to boost your brand's reach and credibility.",
+      "We ensure smooth interactions and resolve conflicts to maintain a healthy community.",
     icon: "icon8.svg",
   },
   {
     id: 9,
-    title: "Feedback Collection",
+    title: "Negative Feedback Management",
     content:
-      "We gather and analyse community feedback to refine our strategies.",
+      "We handle criticism gracefully, turning it into opportunities for growth.",
     icon: "icon9.svg",
   },
   {
     id: 10,
-    title: "Guideline Development",
+    title: "Analytics",
     content:
-      "We establish clear community guidelines to maintain a positive environment.",
+      "We offer a comprehensive dashboard displaying the performance on every channel and use data insights to track effectiveness and inform future strategies.",
     icon: "icon10.svg",
   },
   {
     id: 11,
-    title: "Moderation",
+    title: "Trust Building",
     content:
-      "We ensure smooth interactions and resolve conflicts to maintain a healthy community.",
+      "We prioritise transparency, consistency, and reliability to foster credibility and loyalty.",
     icon: "icon11.svg",
   },
   {
     id: 12,
-    title: "Analytics",
+    title: "Education",
     content:
-      "We offer a comprehensive dashboard displaying the performance on every channel and use data insights to track effectiveness and inform future strategies.",
+      "We offer resources to empower community members with industry knowledge.",
     icon: "icon12.svg",
   },
   {
     id: 13,
-    title: "Education",
+    title: "Engagement Initiatives",
     content:
-      "We offer resources to empower community members with industry knowledge.",
+      "We create interactive activities to encourage participation and belonging.",
     icon: "icon13.svg",
   },
   {

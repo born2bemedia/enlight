@@ -144,10 +144,10 @@ a{
         transform: translateY(-160%) translateX(150%); /* Adjust values to control the ending position */
     }
 	25% {
-        transform: translateY(-160%) translateX(-999%); /* Adjust values to control the ending position */
+        transform: translateY(-160%) translateX(-9999%); /* Adjust values to control the ending position */
     }
 	30% {
-        transform: translateY(160%) translateX(-999%); /* Adjust values to control the ending position */
+        transform: translateY(160%) translateX(-9999%); /* Adjust values to control the ending position */
     }
 	60% {
         transform: translateY(160%) translateX(-150%); /* Adjust values to control the ending position */

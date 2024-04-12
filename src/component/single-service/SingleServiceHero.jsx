@@ -4,9 +4,9 @@ import React from "react";
 import { RevealWrapper, RevealList } from "next-reveal";
 import Image from "next/image";
 
-function SingleServiceHero({ title, subtitle, image }) {
+function SingleServiceHero({ title, subtitle, image, classLabel }) {
   return (
-    <section className="service-hero">
+    <section className={`service-hero ${classLabel}`}>
       <RevealList
         origin="bottom"
         interval={0}
