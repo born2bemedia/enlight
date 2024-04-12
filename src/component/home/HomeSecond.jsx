@@ -41,17 +41,18 @@ function HomeSecond() {
                 <div>
                   <span>
                     Average <br />
-                    CPL
-                  </span>
-                  <h5>40 EUR</h5>
-                </div>
-                <div>
-                  <span>
-                    Average <br />
                     Conversion Rate
                   </span>
                   <h5>1.7%</h5>
                 </div>
+                <div>
+                  <span>
+                    Average <br />
+                    CPL
+                  </span>
+                  <h5>40 EUR</h5>
+                </div>
+                
               </div>
               <p>
                 These metrics underscore the inefficiency of traditional
