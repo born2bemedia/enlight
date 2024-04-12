@@ -34,6 +34,13 @@
             overflow: hidden;
             border-radius: 0 0 24px 24px;
         }
+        @media (max-width:992px) and (min-width:767px){
+            height: auto;
+            width: 50%;
+            overflow: unset;
+            left: 50%;
+            transform: translateX(-50%);
+        }
         div{
             
             position: absolute;
@@ -61,6 +68,9 @@
                     img{
                         max-width: 80%;
                     }
+                }
+                @media (max-width:992px) and (min-width:767px){
+                    bottom: 45%;
                 }
             }
         }
@@ -512,6 +522,13 @@
                     width: 100%;
                     margin-bottom: -70px;
                 }
+            }
+            @media (max-width:992px) and (min-width:767px){
+                height: auto;
+                width: 50%;
+                overflow: unset;
+                left: 50%;
+                transform: translateX(-50%);
             }
         }
     }

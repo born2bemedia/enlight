@@ -450,6 +450,13 @@
                     margin-bottom: -70px;
                 }
             }
+            @media (max-width:992px) and (min-width:767px){
+                height: auto;
+                width: 50%;
+                overflow: unset;
+                left: 50%;
+                transform: translateX(-50%);
+            }
         }
     }
     h2{
