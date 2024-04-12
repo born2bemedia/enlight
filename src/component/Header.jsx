@@ -1,9 +1,14 @@
+
 import React from "react";
 import Link from "next/link";
 import "@/public/scss/header.scss";
 import MobileMenu from "./MobileMenu";
 
+import ServicesDropdown from "./ServicesDropdown";
+
 function Header() {
+  
+
   return (
     <header>
       <div className="_container">
@@ -13,7 +18,7 @@ function Header() {
           </Link>
           <nav>
             <Link href="/purpose">Purposes</Link>
-            <Link href="/services">Services</Link>
+            <ServicesDropdown/>
             <Link href="#">Resources</Link>
             <Link href="#">Team</Link>
             <Link href="#">Get Started</Link>
@@ -25,7 +30,7 @@ function Header() {
               Log In
             </Link>
 
-            <MobileMenu/>
+            <MobileMenu />
           </div>
         </div>
       </div>

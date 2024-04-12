@@ -68,17 +68,45 @@ function MobileMenu() {
           </svg>
         )}
       </span>
-      {opened && (
-        <div className="mobile-menu">
+      <div className={`mobile-menu ${opened ? 'opened' : ''}`}>
           
           <Link href="/purpose">Purposes</Link>
           <Link href="/services">Services</Link>
+          <div className="services-menu">
+          <Link href="">
+                <img src="/images/services/comunity-building.svg" />
+                <span>
+                  Community <br />
+                  Building
+                </span>
+              </Link>
+              <Link href="">
+                <img src="/images/services/search-visibility.svg" />
+                <span>
+                  Search Visibility <br />
+                  and Traffic
+                </span>
+              </Link>
+              <Link href="">
+                <img src="/images/services/reputation.svg" />
+                <span>
+                  Reputation, Experience <br />
+                  and Expertise
+                </span>
+              </Link>
+              <Link href="">
+                <img src="/images/services/branding.svg" />
+                <span>
+                  Branding <br />
+                  Solutions
+                </span>
+              </Link>
+          </div>
           <Link href="#">Resources</Link>
           <Link href="#">Team</Link>
           <Link href="#">Get Started</Link>
           <Link href="#">Contact Us</Link>
         </div>
-      )}
     </>
   );
 }
