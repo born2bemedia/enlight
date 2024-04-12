@@ -32,7 +32,7 @@
             top:unset;
             bottom: 0;
             height: 90%;
-            width: 40%;
+            width: 35%;
             display: flex;
             align-items: flex-end;
             right: 30px;
@@ -159,6 +159,10 @@
             br{
                 display: none;
             }
+        }
+        @media (max-width:1400px) and (min-width:1000px){
+            font-size: 64px;
+            margin: 0 0 20px 0;
         }
     }
 
@@ -289,6 +293,9 @@
         @media (max-width:992px){
             flex-direction: column;
         }
+        @media (max-width:1400px) and (min-width:1000px){
+            flex-wrap: wrap;
+        }
         &.five-cols{
             >div{
                 width: 20%;
@@ -296,6 +303,9 @@
                 @media (max-width:992px){
                     width: 100%;
                     padding: 32px;
+                }
+                @media (max-width:1400px) and (min-width:1000px){
+                    width: calc(50% - 16px);
                 }
             } 
         }

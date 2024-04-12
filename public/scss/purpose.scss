@@ -41,6 +41,9 @@
             height: 400px;
             width: calc(100% - 32px);
         }
+        @media (max-width:1400px) and (min-width:1000px){
+            width: 500px;
+        }
         @media (max-width:992px) and (min-width:767px){
             height: auto;
             width: 55%;
@@ -75,6 +78,12 @@
                     bottom: 25%;
                 }
                 @media (max-width:992px){
+                    bottom: 20%;
+                    img{
+                        max-width:90%;
+                    }
+                }
+                @media (max-width:1400px) and (min-width:1000px){
                     bottom: 20%;
                     img{
                         max-width:90%;
@@ -146,6 +155,10 @@
             font-size: 36px;
             margin: 0 0 25px 0;
         }
+        @media (max-width:1400px) and (min-width:1000px){
+            font-size: 64px;
+            margin: 0 0 25px 0;
+        }
     }
     p{
         color: var(--1, #F0F0F7);
@@ -207,6 +220,10 @@
         @media (max-width:992px){
             display: none;
         }
+        @media (max-width:1400px) and (min-width:1000px){
+            left: 0;
+            width: 100%;
+        }
         &.is-fixed{
             position: fixed;
             top: 0; 
@@ -244,6 +261,9 @@
             display: flex;
             flex-direction: column;
             gap:50px;
+            @media (max-width:1400px) and (min-width:1000px){
+                width: calc(100% - 600px);
+            }
             @media (max-width:992px){
                 width: 100%;
                 gap:30px;
@@ -268,6 +288,9 @@
                 @media (max-width:992px){
                     font-size: 36px;
                 }
+                @media (max-width:1400px) and (min-width:1000px){
+                    font-size: 36px;
+                }
             }
         }
         .right{
@@ -275,6 +298,9 @@
             padding: 40px;
             border-radius: 0px 24px 24px 24px;
             background: var(--1, #F0F0F7);
+            @media (max-width:1400px) and (min-width:1000px){
+                width: 600px;
+            }
             @media (max-width:992px){
                 width: 100%;
                 padding: 24px;
@@ -346,12 +372,13 @@
             bottom: 0;
             display: flex;
             @media (max-width:1375px){
-                width: 50%;
+                width: 40%;
                 img{
                     width: 100%;
                     height: auto;
                 }
             }
+            
             @media (max-width:992px){
                 width: 100%;
                 justify-content: flex-end;
