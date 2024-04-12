@@ -73,28 +73,28 @@ function MobileMenu() {
           <Link href="/purpose">Purposes</Link>
           <Link href="/services">Services</Link>
           <div className="services-menu">
-          <Link href="">
+          <Link href="/community-building">
                 <img src="/images/services/comunity-building.svg" />
                 <span>
                   Community <br />
                   Building
                 </span>
               </Link>
-              <Link href="">
+              <Link href="/search-visibility-and-traffic">
                 <img src="/images/services/search-visibility.svg" />
                 <span>
                   Search Visibility <br />
                   and Traffic
                 </span>
               </Link>
-              <Link href="">
+              <Link href="/reputation-experience-and-expertise">
                 <img src="/images/services/reputation.svg" />
                 <span>
                   Reputation, Experience <br />
                   and Expertise
                 </span>
               </Link>
-              <Link href="">
+              <Link href="/branding-solutions">
                 <img src="/images/services/branding.svg" />
                 <span>
                   Branding <br />
