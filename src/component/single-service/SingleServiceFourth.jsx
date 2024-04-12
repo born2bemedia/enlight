@@ -5,7 +5,7 @@ import { RevealWrapper, RevealList } from "next-reveal";
 import Image from "next/image";
 import Link from "next/link";
 
-function SingleServiceFourth() {
+function SingleServiceFourth({ results }) {
   const [popupOpened, setPopupOpened] = useState(false);
 
   const handlePopup = () => {
@@ -39,26 +39,13 @@ function SingleServiceFourth() {
               delay={0}
               className="service-fourth__col-02"
             >
-              <div>
-                <h3>+40%</h3>
-                <p>Organic Traffic</p>
-              </div>
-              <div>
-                <h3>3X</h3>
-                <p>Referral traffic</p>
-              </div>
-              <div>
-                <h3>+30%</h3>
-                <p>SERP Brand Mentions</p>
-              </div>
-              <div>
-                <h3>+20%</h3>
-                <p>CTR Growth</p>
-              </div>
-              <div>
-                <h3>Top-10</h3>
-                <p>Brand Visibility</p>
-              </div>
+              {results.map((item, index) => (
+                <div key={index}>
+                  <h3>{item.value}</h3>
+                  <p>{item.label}</p>
+                </div>
+              ))}
+              
               <button onClick={() => handlePopup()}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

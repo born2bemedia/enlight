@@ -5,8 +5,7 @@ import { RevealWrapper } from "next-reveal";
 import Image from "next/image";
 import Link from "next/link";
 
-
-function SingleServiceLast() {
+function SingleServiceLast({ title }) {
   const [popupOpened, setPopupOpened] = useState(false);
 
   const handlePopup = () => {
@@ -19,16 +18,12 @@ function SingleServiceLast() {
         <div className="_container">
           <div className="service-last__body">
             <RevealWrapper origin="bottom" delay={0}>
-              <h2>
-                Let us talk about <br />
-                community building for<br />
-                your crypto project
-              </h2>
+              <h2 dangerouslySetInnerHTML={{ __html: title }} />
             </RevealWrapper>
             <RevealWrapper origin="bottom" delay={0}>
               <button onClick={() => handlePopup()} className="main-button">
                 <span>
-                Contact Enlight community expert
+                  Contact Enlight community expert
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

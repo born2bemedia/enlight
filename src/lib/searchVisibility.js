@@ -1,4 +1,4 @@
-export const searchVisibility = [
+export const searchVisibilityServices = [
     {
       id: 1,
       title: "Understanding Your Audience",
@@ -73,3 +73,63 @@ export const searchVisibility = [
     }
   ];
   
+  export const searchVisibilityChallenges = [
+    {
+      id: "01",
+      title: "Tough <br />Competition",
+      content:
+        "There are so many projects in crypto that it's like a crowded room. Getting noticed online is like trying to stand out in a big crowd.",
+    },
+    {
+      id: "02",
+      title: "Google's <br />E-A-T",
+      content:
+        "E-A-T means Google wants to see that you know what you're talking about and that you're trustworthy. It's like getting a gold star from Google.",
+    },
+    {
+      id: "03",
+      title: "Rules and <br />Regulations",
+      content:
+        "There are rules and regulations about promoting crypto projects. Sometimes, these rules can make it hard to get the word out about your project.",
+    },
+    {
+      id: "04",
+      title: "Rapidly <br />Changing",
+      content:
+        "Crypto is always changing, like the weather. Keeping up with what's hot and what's not can be tricky.",
+    },
+    {
+      id: "05",
+      title: "Search <br />Engine Rules",
+      content:
+        "Google, Bing, Yandex, and other search engines keep changing rules about how they rank websites. So, what worked yesterday might not work today.",
+    },
+  ]
+
+  export const searchVisibilityResults = [
+    {
+      id: 1,
+      value: "+40%",
+      label: "Organic Traffic",
+    },
+    {
+      id: 2,
+      value: "3X",
+      label: "Referral traffic",
+    },
+    {
+      id: 3,
+      value: "+30%",
+      label: "SERP Brand Mentions",
+    },
+    {
+      id: 4,
+      value: "+20%",
+      label: "CTR Growth",
+    },
+    {
+      id: 5,
+      value: "Top-10",
+      label: "Brand Visibility",
+    },
+  ]

@@ -4,7 +4,7 @@ import React from "react";
 import { RevealWrapper, RevealList } from "next-reveal";
 import Image from "next/image";
 
-function SingleServiceHero() {
+function SingleServiceHero({ title, subtitle, image }) {
   return (
     <section className="service-hero">
       <RevealList
@@ -22,7 +22,7 @@ function SingleServiceHero() {
         </div>
         <div className="image-container">
           <Image
-            src={"/images/single-service/service-hero-coins.webp"}
+            src={`/images/single-service/${image}`}
             width={625}
             height={323}
             style={{
@@ -35,18 +35,10 @@ function SingleServiceHero() {
       <div className="_container">
         <div className="service-hero__body">
           <RevealWrapper origin="bottom" delay={0}>
-            <h1>
-              How we <br />
-              build crypto <br />
-              communities
-            </h1>
+            <h1 dangerouslySetInnerHTML={{ __html: title }} />
           </RevealWrapper>
           <RevealWrapper origin="bottom" delay={0}>
-            <p>
-              Strategic community-building initiatives, maximising engagement{" "}
-              <br />
-              and outreach across various platforms and channels.
-            </p>
+            <p dangerouslySetInnerHTML={{ __html: subtitle }} />
           </RevealWrapper>
         </div>
       </div>
