@@ -351,6 +351,9 @@
     &__col-01{
         width: calc(100% - 600px);
         position: relative;
+        @media (max-width:1400px) and (min-width:1000px){
+            width: calc(50% - 16px);
+        }
         @media (max-width:992px){
             width: 100%;
         }
@@ -361,6 +364,9 @@
             font-style: normal;
             font-weight: 500;
             line-height: 120%;
+            @media (max-width:1400px) and (min-width:1000px){
+                font-size: 36px;
+            }
             &.mobile-header{
                 display: none;
                 @media (max-width:992px){
@@ -416,6 +422,9 @@
     }
     &__col-02{
         width: 588px;
+        @media (max-width:1400px) and (min-width:1000px){
+            width: calc(50% - 16px);
+        }
         @media (max-width:992px){
             width: 100%;
         }
