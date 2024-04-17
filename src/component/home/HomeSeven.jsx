@@ -69,7 +69,7 @@ function HomeSeven() {
                 </div>
                 <div className="right">
                   <div>
-                    <img src="/images/home/problem.svg" />
+                    <img src="/images/home/problem.svg" alt="problem"/>
                     <h4>Problem</h4>
                     <p>
                       Your crypto project isn't getting the attention it
@@ -77,7 +77,7 @@ function HomeSeven() {
                     </p>
                   </div>
                   <div>
-                    <img src="/images/home/solution.svg" />
+                    <img src="/images/home/solution.svg" alt="solution" />
                     <h4>Enlight Solution</h4>
                     <p>
                       We'll get your project noticed with tailored content,
@@ -106,7 +106,7 @@ function HomeSeven() {
                 </div>
                 <div className="right">
                   <div>
-                    <img src="/images/home/problem.svg" />
+                    <img src="/images/home/problem.svg" alt="problem"/>
                     <h4>Problem</h4>
                     <p>
                       Navigating the ever-changing regulatory landscape feels
@@ -114,7 +114,7 @@ function HomeSeven() {
                     </p>
                   </div>
                   <div>
-                    <img src="/images/home/solution.svg" />
+                    <img src="/images/home/solution.svg" alt="solution" />
                     <h4>Enlight Solution</h4>
                     <p>
                       We'll help you stay on the right side of the law with
@@ -142,7 +142,7 @@ function HomeSeven() {
                 </div>
                 <div className="right">
                   <div>
-                    <img src="/images/home/problem.svg" />
+                    <img src="/images/home/problem.svg" alt="problem"/>
                     <h4>Problem</h4>
                     <p>
                       People aren't fully buying into your project, questioning
@@ -150,7 +150,7 @@ function HomeSeven() {
                     </p>
                   </div>
                   <div>
-                    <img src="/images/home/solution.svg" />
+                    <img src="/images/home/solution.svg" alt="solution" />
                     <h4>Enlight Solution</h4>
                     <p>
                       We'll build trust and credibility through engaging
@@ -175,7 +175,7 @@ function HomeSeven() {
                 </div>
                 <div className="right">
                   <div>
-                    <img src="/images/home/problem.svg" />
+                    <img src="/images/home/problem.svg" alt="problem"/>
                     <h4>Problem</h4>
                     <p>
                       Your marketing efforts are falling flat, wasting time and
@@ -183,7 +183,7 @@ function HomeSeven() {
                     </p>
                   </div>
                   <div>
-                    <img src="/images/home/solution.svg" />
+                    <img src="/images/home/solution.svg" alt="solution" />
                     <h4>Enlight Solution</h4>
                     <p>
                       Let's revamp your strategy with data-driven insights,
@@ -212,7 +212,7 @@ function HomeSeven() {
                 </div>
                 <div className="right">
                   <div>
-                    <img src="/images/home/problem.svg" />
+                    <img src="/images/home/problem.svg" alt="problem"/>
                     <h4>Problem</h4>
                     <p>
                       Your project isn't getting the media attention it
@@ -220,7 +220,7 @@ function HomeSeven() {
                     </p>
                   </div>
                   <div>
-                    <img src="/images/home/solution.svg" />
+                    <img src="/images/home/solution.svg" alt="solution" />
                     <h4>Enlight Solution</h4>
                     <p>
                       We'll boost your project's visibility with guest posts,
@@ -249,7 +249,7 @@ function HomeSeven() {
                 </div>
                 <div className="right">
                   <div>
-                    <img src="/images/home/problem.svg" />
+                    <img src="/images/home/problem.svg" alt="problem"/>
                     <h4>Problem</h4>
                     <p>
                       You're flying blind with your marketing campaigns, unable
@@ -257,7 +257,7 @@ function HomeSeven() {
                     </p>
                   </div>
                   <div>
-                    <img src="/images/home/solution.svg" />
+                    <img src="/images/home/solution.svg" alt="solution" />
                     <h4>Enlight Solution</h4>
                     <p>
                       Gain clarity with our intuitive dashboard, providing
