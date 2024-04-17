@@ -61,6 +61,7 @@ function HomeSixth() {
                   src="/images/home/default.png"
                   width={590}
                   height={350}
+                  alt="default"
                 />
               </div>
             </div>
@@ -81,6 +82,7 @@ function HomeSixth() {
                   src="/images/home/default.png"
                   width={590}
                   height={350}
+                  alt="default"
                 />
               </div>
             </div>
@@ -101,6 +103,7 @@ function HomeSixth() {
                   src="/images/home/default.png"
                   width={590}
                   height={350}
+                  alt="default"
                 />
               </div>
             </div>
@@ -121,6 +124,7 @@ function HomeSixth() {
                   src="/images/home/default.png"
                   width={590}
                   height={350}
+                  alt="default"
                 />
               </div>
             </div>

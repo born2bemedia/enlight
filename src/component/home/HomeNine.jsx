@@ -13,6 +13,7 @@ function HomeNine() {
               src={"/images/home/home-nine.webp"}
               width={620}
               height={350}
+              alt="home-nine"
             />
           </RevealWrapper>
 

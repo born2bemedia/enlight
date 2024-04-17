@@ -24,7 +24,7 @@ function HomeFifth() {
             </h3>
           </RevealWrapper>
           <RevealWrapper origin="bottom">
-            <Image src={"/images/home/default3.png"} width={1140} height={600} />
+            <Image src={"/images/home/default3.png"} width={1140} height={600} alt="default3"/>
           </RevealWrapper>
 
         </div>

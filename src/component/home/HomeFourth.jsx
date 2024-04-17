@@ -14,6 +14,7 @@ function HomeFourth() {
               src={"/images/home/third-block-image.webp"}
               width={592}
               height={510}
+              alt="third-block-image"
             />
           </RevealWrapper>
           <RevealWrapper origin="bottom" delay={0}>

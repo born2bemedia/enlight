@@ -54,6 +54,7 @@ function HomeThird() {
                     src={"/images/home/home-third.webp"}
                     width={472}
                     height={528}
+                    alt="home-third"
                   />
                 </div>
               </div>
@@ -69,7 +70,7 @@ function HomeThird() {
                   <li>Identification and engagement of influential figures and crypto experts</li>
                   <li>Selection of reputable media platforms for maximum impact</li>
                 </ul>
-                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+                <Image src={"/images/home/default2.png"} width={588} height={350} alt="default2"/>
               </div>
               <div>
                 <h3>02</h3>
@@ -81,7 +82,7 @@ function HomeThird() {
                   <li>Creation of effective, data-driven and context-relevant content to engage target audiences</li>
                   <li>Integration of SEO best practices to comply with search engine requirements, enhance visibility and reach</li>
                 </ul>
-                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+                <Image src={"/images/home/default2.png"} width={588} height={350} alt="default2"/>
               </div>
               <div>
                 <h3>03</h3>
@@ -91,7 +92,7 @@ function HomeThird() {
                   <li>Implementation of measures to ensure transparency and legal compliance</li>
                   <li>Safeguarding brand reputation through ethical marketing practices</li>
                 </ul>
-                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+                <Image src={"/images/home/default2.png"} width={588} height={350} alt="default2"/>
               </div>
               <div>
                 <h3>04</h3>
@@ -103,7 +104,7 @@ function HomeThird() {
                   <li>Cultivation of brand authority and thought leadership within the crypto space</li>
                   <li>Leveraging guest posting opportunities for enhanced visibility and credibility</li>
                 </ul>
-                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+                <Image src={"/images/home/default2.png"} width={588} height={350} alt="default2"/>
               </div>
               <div>
                 <h3>05</h3>
@@ -113,7 +114,7 @@ function HomeThird() {
                   <li>Iterative optimization of marketing strategies based on data-driven insights</li>
                   <li>Intuitive dashboard for visualising and simplifying campaign analysis and optimization processes, enabling seamless integration of all marketing channels for enhanced efficiency and effectiveness.</li>
                 </ul>
-                <Image src={"/images/home/default2.png"} width={588} height={350}/>
+                <Image src={"/images/home/default2.png"} width={588} height={350} alt="default2"/>
               </div>
             </div>
           </div>

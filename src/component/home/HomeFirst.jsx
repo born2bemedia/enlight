@@ -18,6 +18,7 @@ function HomeFirst() {
             src={"/images/home/home-first.webp"}
             width={816}
             height={470}
+            alt="home-first"
           />
         </div>
         <div className="image-container">
@@ -25,6 +26,7 @@ function HomeFirst() {
             src={"/images/home/coins-hero.webp"}
             width={625}
             height={323}
+            alt="coins-hero"
             style={{
               animation: `floatAnimation 5s infinite ease-in-out`,
               animationDelay: "0s",
