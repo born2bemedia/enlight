@@ -40,21 +40,21 @@ function ServicesDropdown() {
           <div className="_container">
             <div className="service-dropdown__body">
               <Link href="/community-building">
-                <img src="/images/services/comunity-building.svg" />
+                <img src="/images/services/comunity-building.svg" alt="comunity-building" />
                 <span>
                   Community <br />
                   Building
                 </span>
               </Link>
               <Link href="/search-visibility-and-traffic">
-                <img src="/images/services/search-visibility.svg" />
+                <img src="/images/services/search-visibility.svg" alt="search-visibility" />
                 <span>
                   Search Visibility <br />
                   and Traffic
                 </span>
               </Link>
               <Link href="/reputation-experience-and-expertise">
-                <img src="/images/services/reputation.svg" />
+                <img src="/images/services/reputation.svg" alt="reputation" />
                 <span>
                   Reputation, <br />
                   Experience <br />
@@ -62,7 +62,7 @@ function ServicesDropdown() {
                 </span>
               </Link>
               <Link href="/branding-solutions">
-                <img src="/images/services/branding.svg" />
+                <img src="/images/services/branding.svg" alt="branding" />
                 <span>
                   Branding <br />
                   Solutions
