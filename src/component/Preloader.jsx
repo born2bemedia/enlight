@@ -39,7 +39,9 @@ const Preloader = () => {
         visibility: isVisible ? 'visible' : 'hidden',
       }}
     >
-      <span>Loading...</span>
+      <span>
+        <img width={100} src="/images/enlight-preloader.gif"/>
+      </span>
     </div>
   );
 };
