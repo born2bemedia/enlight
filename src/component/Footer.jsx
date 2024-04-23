@@ -13,10 +13,10 @@ function Footer() {
           <nav>
             <Link href="/purpose">Purposes</Link>
             <Link href="/services">Services</Link>
+            <Link href="/media-and-platforms">Media and Platforms</Link>
             <Link href="#">Resources</Link>
 
             <Link href="#">Team</Link>
-            <Link href="#">Get Started</Link>
             <Link href="#">Contact Us</Link>
           </nav>
           <div className="footer-contacts">
