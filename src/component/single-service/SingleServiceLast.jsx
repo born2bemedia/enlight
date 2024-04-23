@@ -5,7 +5,7 @@ import { RevealWrapper } from "next-reveal";
 import Image from "next/image";
 import Link from "next/link";
 
-function SingleServiceLast({ title }) {
+function SingleServiceLast({ title, buttonText =  "Contact Enlight community expert"}) {
   const [popupOpened, setPopupOpened] = useState(false);
 
   const handlePopup = () => {
@@ -23,7 +23,7 @@ function SingleServiceLast({ title }) {
             <RevealWrapper origin="bottom" delay={0}>
               <button onClick={() => handlePopup()} className="main-button">
                 <span>
-                  Contact Enlight community expert
+                  {buttonText}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

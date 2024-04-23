@@ -104,7 +104,7 @@ function MobileMenu() {
           </div>
           <Link href="/media-and-platforms">Media and Platforms</Link>
           <Link href="#">Resources</Link>
-          <Link href="#">Team</Link>
+          <Link href="/team">Team</Link>
           <Link href="#">Contact Us</Link>
         </div>
     </>
