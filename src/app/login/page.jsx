@@ -5,9 +5,14 @@ import "@/public/scss/login.scss";
 function LoginPage() {
   return (
     <section className="login-wrap">
-        <div className="form-login">
-            <LoginForm />
+      <div className="form-login">
+        <img src="/images/login/login1.png" />
+        <img src="/images/login/login2.png" />
+        <img src="/images/login/login3.png" />
+        <div>
+          <LoginForm />
         </div>
+      </div>
     </section>
   );
 }
