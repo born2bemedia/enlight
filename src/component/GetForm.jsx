@@ -4,7 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
-import Select from 'react-select';
+import Select from "react-select";
 
 const ValidationSchema = Yup.object().shape({
   name: Yup.string().required("This field is required."),
@@ -25,18 +25,20 @@ const ValidationSchema = Yup.object().shape({
 });
 
 const projectTypeOptions = [
-  { value: '', label: 'Project type' },
-  { value: 'Cryptocurrency Exchanges', label: 'Cryptocurrency Exchanges' },
-  { value: 'Blockchain Platforms', label: 'Blockchain Platforms' },
-  { value: 'Payment Solutions', label: 'Payment Solutions' },
-  { value: 'Token Offerings', label: 'Token Offerings' },
-  { value: 'Decentralised Finance (DeFi)', label: 'Decentralised Finance (DeFi)' },
-  { value: 'Coin Marketplaces', label: 'Coin Marketplaces' },
-  { value: 'Other', label: 'Other' },
+  { value: "", label: "Project type" },
+  { value: "Cryptocurrency Exchanges", label: "Cryptocurrency Exchanges" },
+  { value: "Blockchain Platforms", label: "Blockchain Platforms" },
+  { value: "Payment Solutions", label: "Payment Solutions" },
+  { value: "Token Offerings", label: "Token Offerings" },
+  {
+    value: "Decentralised Finance (DeFi)",
+    label: "Decentralised Finance (DeFi)",
+  },
+  { value: "Coin Marketplaces", label: "Coin Marketplaces" },
+  { value: "Other", label: "Other" },
 ];
 
-
-const GetForm = ({ handleFormReset }) => (
+const GetForm = ({ handleFormReset, popupTitleContent = "" }) => (
   <div>
     <Formik
       initialValues={{
@@ -57,12 +59,24 @@ const GetForm = ({ handleFormReset }) => (
         }, 400);
       }}
     >
-      {({ setFieldValue, touched, errors, isSubmitting, values, setFieldTouched  }) => (
+      {({
+        setFieldValue,
+        touched,
+        errors,
+        isSubmitting,
+        values,
+        setFieldTouched,
+      }) => (
         <>
-          <h2>
-            Crypto needs a different <br />
-            marketing. <span>Get it!</span>
-          </h2>
+          {popupTitleContent ? (
+            <h2>{popupTitleContent}</h2>
+          ) : (
+            <h2>
+              Crypto needs a different <br />
+              marketing. <span>Get it!</span>
+            </h2>
+          )}
+
           <Form className="popup-form">
             <div className="input-wrap">
               <Field
@@ -97,15 +111,22 @@ const GetForm = ({ handleFormReset }) => (
             <div className="input-wrap">
               <Select
                 options={projectTypeOptions}
-                classNamePrefix={touched.projectType && errors.projectType ? 'invalid select' : 'select'}
-                onChange={(option) => setFieldValue('projectType', option.value)}
-                onBlur={() => setFieldTouched('projectType', true)}
-                value={projectTypeOptions.find(option => option.value === values.projectType)}
+                classNamePrefix={
+                  touched.projectType && errors.projectType
+                    ? "invalid select"
+                    : "select"
+                }
+                onChange={(option) =>
+                  setFieldValue("projectType", option.value)
+                }
+                onBlur={() => setFieldTouched("projectType", true)}
+                value={projectTypeOptions.find(
+                  (option) => option.value === values.projectType
+                )}
                 placeholder="Project type"
               />
               <ErrorMessage name="projectType" component="span" />
             </div>
-
 
             <div className="input-wrap">
               <Field

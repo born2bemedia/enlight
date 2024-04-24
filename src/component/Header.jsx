@@ -20,7 +20,7 @@ function Header() {
             <Link href="/purpose">Purposes</Link>
             <ServicesDropdown/>
             <Link href="/media-and-platforms">Media and Platforms</Link>
-            <Link href="#">Resources</Link>
+            <Link href="/resources">Resources</Link>
             <Link href="/team">Team</Link>
             <Link href="/contact-us">Contact Us</Link>
           </nav>

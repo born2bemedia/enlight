@@ -1,48 +1,37 @@
-"use client";
-import { RevealWrapper } from "next-reveal";
+import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
-import FormPopup from "@/src/component/FormPopup";
 
-function HomeFourth() {
-  const [popupOpened, setPopupOpened] = useState(false);
-
-  const handlePopup = () => {
-    setPopupOpened(!popupOpened);
-  };
-
+function ResourceCard( {title, image, subtitle, excerpt, slug } ) {
   return (
-    <>
-      <section className="home-fourth">
-        <div className="_container">
-          <div className="home-fourth__body">
-            <RevealWrapper origin="bottom" delay={0} className="image-wrap">
+    <div className="resource-card">
+            <div className="top">
+              <div>
+                <h2 dangerouslySetInnerHTML={{ __html: title }} />
+              </div>
               <Image
-                src={"/images/home/third-block-image.webp"}
-                width={592}
-                height={510}
-                alt="third-block-image"
+                src={`/images/resources/${image}`}
+                width={375}
+                height={300}
               />
-            </RevealWrapper>
-            <RevealWrapper origin="bottom" delay={0}>
-              <h2>
-                Break free from outdated <br />
-                marketing techniques that drain <br />
-                your budget with little return.
-              </h2>
-            </RevealWrapper>
-            <RevealWrapper origin="bottom" delay={0}>
-              <p>
-                Transform your strategy with Enlight and unlock better results
-                tomorrow.{" "}
-              </p>
-            </RevealWrapper>
-
-            <RevealWrapper origin="bottom" delay={0}>
-              <button onClick={() => handlePopup()} className="main-button">
+            </div>
+            <div className="bottom">
+              <div>
+                <h3>
+                  {subtitle}
+                </h3>
+                <p>
+                  {excerpt}
+                </p>
+              </div>
+              <Link
+                href={
+                    `/resources/${slug}`
+                }
+                className="main-button"
+              >
                 <span>
-                  Get started
+                  Read
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -56,14 +45,10 @@ function HomeFourth() {
                     />
                   </svg>
                 </span>
-              </button>
-            </RevealWrapper>
+              </Link>
+            </div>
           </div>
-        </div>
-      </section>
-      {popupOpened && <FormPopup closePopup={() => handlePopup()} />}
-    </>
-  );
+  )
 }
 
-export default HomeFourth;
+export default ResourceCard
