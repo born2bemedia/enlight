@@ -22,7 +22,7 @@ function Header() {
             <Link href="/media-and-platforms">Media and Platforms</Link>
             <Link href="#">Resources</Link>
             <Link href="/team">Team</Link>
-            <Link href="#">Contact Us</Link>
+            <Link href="/contact-us">Contact Us</Link>
           </nav>
 
           <div className="header-right">

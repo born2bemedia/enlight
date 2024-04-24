@@ -17,10 +17,10 @@ function Footer() {
             <Link href="#">Resources</Link>
 
             <Link href="/team">Team</Link>
-            <Link href="#">Contact Us</Link>
+            <Link href="/contact-us">Contact Us</Link>
           </nav>
           <div className="footer-contacts">
-            <Link href="#">
+            <Link href="mailto:info@enlight.business">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -49,9 +49,9 @@ function Footer() {
                   </clipPath>
                 </defs>
               </svg>
-              <span>Email</span>
+              <span>info@enlight.business</span>
             </Link>
-            <Link href="#">
+            <Link href="tel:+447458149408">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
@@ -72,7 +72,7 @@ function Footer() {
                   fill="#97D80F"
                 />
               </svg>
-              <span>Phone</span>
+              <span>+44 745 814 94 08</span>
             </Link>
             <Link href="#">
               <svg
@@ -103,7 +103,12 @@ function Footer() {
                   </clipPath>
                 </defs>
               </svg>
-              <span>Address</span>
+              <span>
+                <b>Registered address: </b><br/>
+                Rooms 1703-1704, 17/F, Tung Chiu Commercial Centre, 193 Lockhart Road, Wanchai, Hong Kong<br/><br/>
+                <b>Operational address: </b><br/>
+                138 Gloucester Rd, Wan Chai, Hong Kong
+              </span>
             </Link>
           </div>
         </div>

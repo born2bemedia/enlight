@@ -59,18 +59,22 @@ footer{
                 font-size: 16px;
                 font-style: normal;
                 font-weight: 400;
-                line-height: 1;
+                line-height: 1.2;
                 display: flex;
-                align-items: center;
+                align-items: flex-start;
                 gap:16px;
                 svg{
-                    margin-top: -2px;
+                    margin-top: -6px;
+                    width: 24px;
+                }
+                span{
+                    width: calc(100% - 40px);
+                    b{
+                        font-weight: 600;
+                    }
                 }
                 @media (max-width:992px){
-                    width: 50%;
-                    &:last-child{
-                        width: 100%;
-                    }
+                    width: 100%;
                 }
             }
         }
