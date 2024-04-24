@@ -65,7 +65,7 @@ const LoginForm = () => (
             <button type="submit" disabled={isSubmitting}>
               <span className="main-button">
                 <span>
-                  Send
+                Continue
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
