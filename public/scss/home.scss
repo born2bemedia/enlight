@@ -336,13 +336,14 @@
 
 .home-third{
     margin: 0 0 150px 0;
-    overflow: hidden;
+    //overflow: hidden;
     @media (max-width:992px){
         margin: 0 0 80px 0;
     }
     &__body{
         display: flex;
         gap:32px;
+        align-items: flex-start;
         @media (max-width:992px){
             flex-direction: column;
             gap:48px;
@@ -350,12 +351,15 @@
     }
     &__col-01{
         width: calc(100% - 600px);
-        position: relative;
+        position: sticky;
+        top:88px;
         @media (max-width:1400px) and (min-width:1000px){
             width: calc(50% - 16px);
         }
         @media (max-width:992px){
             width: 100%;
+            position: relative;
+            top:unset;
         }
         h2{
             color: #F0F0F7;

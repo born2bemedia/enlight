@@ -10,7 +10,7 @@ function ServicesSecond() {
   const [blockClass, setblockClass] = useState("");
   
 
-  useEffect(() => {
+  /*useEffect(() => {
     const handleScroll = () => {
       if (sectionRef.current && blockRef.current) {
         const sectionRect = sectionRef.current.getBoundingClientRect();
@@ -34,7 +34,7 @@ function ServicesSecond() {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, []);*/
 
   return (
     <>
