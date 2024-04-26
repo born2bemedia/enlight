@@ -13,6 +13,31 @@ const ValidationSchema = Yup.object().shape({
     .required("This field is required."),
 });
 
+const handleSubmit = async (
+  values,
+  { setSubmitting, resetForm, setStatus }
+) => {
+  try {
+    const response = await fetch("/api/login", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(values),
+    });
+    console.log(JSON.stringify(values));
+    if (response.ok) {
+      resetForm();
+      setStatus({ success: true });
+      setSubmitting(false);
+    } else {
+      setStatus({ success: false });
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 const LoginForm = () => (
   <div>
     <Formik
@@ -21,13 +46,8 @@ const LoginForm = () => (
         password: "",
       }}
       validationSchema={ValidationSchema}
-      onSubmit={(values, { setSubmitting, resetForm }) => {
-        setTimeout(() => {
-          //alert(JSON.stringify(values, null, 2));
-          setSubmitting(false);
-          resetForm();
-          //handleFormSend(true);
-        }, 400);
+      onSubmit={(values, { setSubmitting, resetForm, setStatus }) => {
+        handleSubmit(values, { setSubmitting, resetForm, setStatus });
       }}
     >
       {({

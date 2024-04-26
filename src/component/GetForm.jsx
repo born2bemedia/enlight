@@ -38,6 +38,31 @@ const projectTypeOptions = [
   { value: "Other", label: "Other" },
 ];
 
+const handleSubmit = async (
+  values,
+  { setSubmitting, resetForm, setStatus }
+) => {
+  try {
+    const response = await fetch("/api/request", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(values),
+    });
+    console.log(JSON.stringify(values));
+    if (response.ok) {
+      resetForm();
+      setStatus({ success: true });
+      setSubmitting(false);
+    } else {
+      setStatus({ success: false });
+    }
+  } catch (error) {
+    console.error(error);
+  }
+};
+
 const GetForm = ({ handleFormReset, popupTitleContent = "" }) => (
   <div>
     <Formik
@@ -50,11 +75,9 @@ const GetForm = ({ handleFormReset, popupTitleContent = "" }) => (
         currentChallenges: "",
       }}
       validationSchema={ValidationSchema}
-      onSubmit={(values, { setSubmitting, resetForm }) => {
+      onSubmit={(values, { setSubmitting, resetForm, setStatus }) => {
+        handleSubmit(values, { setSubmitting, resetForm, setStatus });
         setTimeout(() => {
-          //alert(JSON.stringify(values, null, 2));
-          setSubmitting(false);
-          resetForm();
           handleFormReset(true);
         }, 400);
       }}
