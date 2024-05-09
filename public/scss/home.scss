@@ -34,6 +34,9 @@
             overflow: hidden;
             border-radius: 0 0 24px 24px;
         }
+        @media (max-width:1600px) and (min-width:1400px){
+            width: 700px;
+        }
         @media (max-width:1400px) and (min-width:1000px){
             width: 600px;
         }
@@ -68,6 +71,12 @@
                 padding-left: 10px;
                 @media (max-width:992px){
                     bottom: 22%;
+                    img{
+                        max-width: 80%;
+                    }
+                }
+                @media (max-width:1600px) and (min-width:1400px){
+                    bottom: 28%;
                     img{
                         max-width: 80%;
                     }
@@ -175,6 +184,10 @@
         @media (max-width:992px){
             text-align: center;
             font-size: 36px;
+            margin: 0 0 25px 0;
+        }
+        @media (max-width:1600px) and (min-width:1400px){
+            font-size: 72px;
             margin: 0 0 25px 0;
         }
         @media (max-width:1400px) and (min-width:1000px){
