@@ -85,7 +85,7 @@ const LoginForm = () => (
             <button type="submit" disabled={isSubmitting}>
               <span className="main-button">
                 <span>
-                Continue
+                  Continue
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -104,8 +104,9 @@ const LoginForm = () => (
           </Form>
           <p>
             By proceeding, you agree to the{" "}
-            <Link href="#">Terms and Conditions</Link> and{" "}
-            <Link href="#">Privacy Policy</Link> of our platform.
+            <Link href="/terms-of-service">Terms of Service</Link> and
+            <br />
+            <Link href="/privacy-policy">Privacy Policy</Link>.
           </p>
           <div className="forgot">
             <Link href="#">

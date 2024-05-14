@@ -104,22 +104,26 @@ function Footer() {
                 </defs>
               </svg>
               <span>
-                <b>Registered address: </b><br/>
-                Rooms 1703-1704, 17/F, Tung Chiu Commercial Centre, 193 Lockhart Road, Wanchai, Hong Kong<br/><br/>
-                <b>Operational address: </b><br/>
+                <b>Registered address: </b>
+                <br />
+                Rooms 1703-1704, 17/F, Tung Chiu Commercial Centre, 193 Lockhart
+                Road, Wanchai, Hong Kong
+                <br />
+                <br />
+                <b>Operational address: </b>
+                <br />
                 138 Gloucester Rd, Wan Chai, Hong Kong
               </span>
             </Link>
           </div>
         </div>
         <div className="footer-bottom">
-            <nav>
-                <Link href="#">Terms and Conditions</Link>
-                <Link href="#">Privacy Policy</Link>
-                <Link href="#">Cookie Policy</Link>
-                <Link href="#">Refund Policy</Link>
-            </nav>
-            <p>All Rights Reserved © Marketera HK</p>
+          <nav>
+            <Link href="/terms-of-service">Terms and Conditions</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
+            <Link href="/cookie-policy">Cookie Policy</Link>
+          </nav>
+          <p>All Rights Reserved © Marketera HK</p>
         </div>
       </div>
     </footer>
