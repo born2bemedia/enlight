@@ -24,7 +24,7 @@ function HomeFifth() {
             </h3>
           </RevealWrapper>
           <RevealWrapper origin="bottom">
-            <Image quality={100} src={"/images/home/dashboard.png"} width={1140} height={600} alt="default3"/>
+            <Image quality={100} src={"/images/home/dashboard.png"} width={2280} height={1200} alt="dashboard"/>
           </RevealWrapper>
 
         </div>
