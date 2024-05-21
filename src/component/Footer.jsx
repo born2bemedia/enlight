@@ -7,9 +7,26 @@ function Footer() {
     <footer>
       <div className="_container">
         <div className="footer-top">
-          <Link href="/">
-            <img alt="logo" src="/logo.svg" />
-          </Link>
+          <div class="foter-left">
+            <Link href="/">
+              <img alt="logo" src="/logo.svg" />
+            </Link>
+            <div className="soc">
+              <Link
+                href="https://www.facebook.com/enlight.facebook"
+                target="_blank"
+              >
+                <img src="/images/fb.svg" />
+              </Link>
+              <Link
+                href="https://www.linkedin.com/company/enlight-linkedin/"
+                target="_blank"
+              >
+                <img src="/images/in.svg" />
+              </Link>
+            </div>
+          </div>
+
           <nav>
             <Link href="/purpose">Purposes</Link>
             <Link href="/services">Services</Link>
