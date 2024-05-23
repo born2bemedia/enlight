@@ -27,8 +27,8 @@ function TermsPage() {
             <article>
               <p>
                 This is an agreement between you or the entity that you
-                represent (hereinafter "you" or "your") and Marketera HK
-                (hereinafter "Marketera HK"), [company data] governing your use
+                represent (hereinafter "you" or "your") and Marketera Limited
+                (hereinafter "Marketera Limited"), [company data] governing your use
                 of the services offered by Enllight Business.
               </p>
               <h2>
