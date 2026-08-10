@@ -1,7 +1,9 @@
 import { getPost, getSlugs } from "@/src/utils/blogUtils";
 import React from "react";
 import "@/public/scss/resources.scss";
-import ChatButton from "../_components/ChatButton";
+import ArticleBack from "../_components/ArticleBack";
+import ArticleMain from "../_components/ArticleMain";
+import ResourcesLater from "../_components/ResourcesLater";
 
 export async function generateStaticParams() {
   const slugs = await getSlugs();
@@ -10,28 +12,21 @@ export async function generateStaticParams() {
 
 async function SingleArticle({ params: { slug } }) {
   const post = await getPost(slug);
+  const heroImage = post.image?.startsWith("heroes/")
+    ? `/images/resources/${post.image}`
+    : "/images/resources/article-hero.png";
 
   return (
     <>
-      <section className="section">
-        <div className="_container">
-          <span className="section-label">Article hero</span>
-          <h1 className="section-title">{post.title}</h1>
-          <div className="placeholder-block">Image: {post.image}</div>
-        </div>
-      </section>
-      <section className="section">
-        <div className="_container">
-          <article
-            className="section-text"
-            style={{ maxWidth: 720 }}
-            dangerouslySetInnerHTML={{ __html: post.body }}
-          />
-          <div style={{ marginTop: 32 }}>
-            <ChatButton />
-          </div>
-        </div>
-      </section>
+      <ArticleBack />
+      <ArticleMain
+        title={post.title}
+        bodyHtml={post.body}
+        heroImage={heroImage}
+        date={post.date}
+        readTime={post.readTime}
+      />
+      <ResourcesLater />
     </>
   );
 }

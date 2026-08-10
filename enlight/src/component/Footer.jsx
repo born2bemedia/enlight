@@ -6,50 +6,96 @@ function Footer() {
   return (
     <footer>
       <div className="_container">
-        <div className="footer-top">
-          <div className="foter-left">
-            <Link href="/" className="logo">
-              Enlight
-            </Link>
-            <div className="soc">
-              <Link
-                href="https://www.facebook.com/enlight.facebook"
-                target="_blank"
-              >
-                Facebook
-              </Link>
-              <Link
-                href="https://www.linkedin.com/company/enlight-linkedin/"
-                target="_blank"
-              >
-                LinkedIn
-              </Link>
+        <div className="footer-inner">
+          <Link href="/" className="footer-logo">
+            <img
+              src="/images/footer/logo.png"
+              alt="Enlight"
+              width={402}
+              height={120}
+            />
+          </Link>
+
+          <div className="footer-content">
+            <div className="footer-links">
+              <nav className="footer-links__col" aria-label="Primary">
+                <Link href="/purpose">How to start</Link>
+                <Link href="/services">Services</Link>
+                <Link href="/resources">Resources</Link>
+                <Link href="/contact-us">Get Started</Link>
+              </nav>
+              <nav className="footer-links__col" aria-label="Company">
+                <Link href="/purpose">About Us</Link>
+                <Link href="/contact-us">Contact Us</Link>
+                <Link href="/team">Team</Link>
+              </nav>
+              <nav className="footer-links__col" aria-label="Legal">
+                <Link href="/terms-of-service">Terms and Conditions</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
+                <Link href="/cookie-policy">Cookie Policy</Link>
+              </nav>
             </div>
+
+            <div className="footer-divider" aria-hidden="true" />
+
+            <div className="footer-meta">
+              <div className="footer-contacts">
+                <a
+                  className="footer-contact"
+                  href="mailto:info@enlight.business"
+                >
+                  <img
+                    src="/images/footer/email.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
+                  <span>info@enlight.business</span>
+                </a>
+                <a className="footer-contact" href="tel:+447458149408">
+                  <img
+                    src="/images/footer/phone.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
+                  <span>+44 745 814 94 08</span>
+                </a>
+              </div>
+
+              <div className="footer-addresses">
+                <div className="footer-address">
+                  <img
+                    src="/images/footer/pin.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
+                  <p>
+                    <strong>Registered address:</strong>
+                    <br />
+                    Rooms 1703-1704, 17/F, Tung Chiu Commercial Centre, 193
+                    Lockhart Road, Wanchai, Hong Kong
+                  </p>
+                </div>
+                <div className="footer-address">
+                  <img
+                    src="/images/footer/pin.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
+                  <p>
+                    <strong>Operational address:</strong>
+                    <br />
+                    138 Gloucester Rd, Wan Chai, Hong Kong
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <p className="footer-copy">All Rights Reserved © Marketera HK</p>
           </div>
-
-          <nav>
-            <Link href="/purpose">Purposes</Link>
-            <Link href="/services">Services</Link>
-            <Link href="/media-and-platforms">Media and Platforms</Link>
-            <Link href="/resources">Resources</Link>
-            <Link href="/team">Team</Link>
-            <Link href="/contact-us">Contact Us</Link>
-          </nav>
-
-          <div className="footer-contacts">
-            <Link href="mailto:info@enlight.business">
-              info@enlight.business
-            </Link>
-            <Link href="tel:+447458149408">+44 7458 149408</Link>
-          </div>
-        </div>
-
-        <div className="footer-bottom">
-          <Link href="/privacy-policy">Privacy Policy</Link>
-          {" · "}
-          <Link href="/cookie-policy">Cookie Policy</Link>
-          {" · "}
-          <Link href="/terms-of-service">Terms of Service</Link>
         </div>
       </div>
     </footer>

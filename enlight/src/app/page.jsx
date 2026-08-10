@@ -8,6 +8,7 @@ import HomeThird from "../component/home/HomeThird";
 import HomeEight from "../component/home/HomeEight";
 import HomeNine from "../component/home/HomeNine";
 import HomeLast from "../component/home/HomeLast";
+import HomeSupport from "../component/home/HomeSupport";
 import HomeFifth from "../component/home/HomeFifth";
 import HomeSeven from "../component/home/HomeSeven";
 
@@ -24,6 +25,7 @@ export default function Home() {
       <HomeEight/>
       <HomeNine/>
       <HomeLast/>
+      <HomeSupport/>
     </>
   );
 }

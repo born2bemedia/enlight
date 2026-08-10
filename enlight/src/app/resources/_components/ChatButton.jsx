@@ -11,9 +11,17 @@ function ChatButton() {
       <button
         type="button"
         onClick={() => setPopupOpened(true)}
-        className="main-button"
+        className="resource-read"
       >
-        Chat with Enlight Experts
+        <span className="resource-read__label">Chat with Enlight Experts</span>
+        <span className="resource-read__icon" aria-hidden="true">
+          <img
+            src="/images/resources/arrow-right.svg"
+            alt=""
+            width={20}
+            height={20}
+          />
+        </span>
       </button>
       {popupOpened && (
         <FormPopup

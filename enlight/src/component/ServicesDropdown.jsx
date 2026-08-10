@@ -8,21 +8,19 @@ function ServicesDropdown() {
 
   return (
     <div
-      className="dropdown-wrap"
+      className={`dropdown-wrap ${dropdownOpened ? "opened" : ""}`}
       onMouseEnter={() => setDropdownOpened(true)}
       onMouseLeave={() => setDropdownOpened(false)}
     >
-      <Link href="/services">
-        Services{" "}
-        <svg width="11" height="6" viewBox="0 0 11 6" fill="none" aria-hidden>
-          <path
-            d="M1.5 1L5.5 5L9.5 1"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
+      <Link href="/services" className="header-nav__link header-nav__link--services">
+        Services
+        <img
+          src="/images/header/chevron-down.svg"
+          alt=""
+          width={12}
+          height={12}
+          className="header-nav__chevron"
+        />
       </Link>
       <div className={`service-dropdown ${dropdownOpened ? "opened" : ""}`}>
         <div className="service-dropdown__body">

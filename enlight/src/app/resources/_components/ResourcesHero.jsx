@@ -2,11 +2,16 @@ import React from "react";
 
 function ResourcesHero() {
   return (
-    <section className="section">
+    <section className="resources-hero">
       <div className="_container">
-        <span className="section-label">ResourcesHero</span>
-        <h1 className="section-title">Resources</h1>
-        <p className="section-text">Placeholder — rebuild with new design.</p>
+        <div className="resources-hero__content">
+          <h1>
+            Crypto marketing
+            <br />
+            resources
+          </h1>
+          <p>Your hub of knowledge and insights</p>
+        </div>
       </div>
     </section>
   );

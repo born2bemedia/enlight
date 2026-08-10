@@ -1,15 +1,41 @@
 import React from "react";
+import Link from "next/link";
 
 function HomeNine() {
   return (
-    <section className="section">
+    <section className="home-roadmap">
       <div className="_container">
-        <span className="section-label">HomeNine</span>
-        <h2 className="section-title">HomeNine</h2>
-        <p className="section-text">
-          Placeholder section — rebuild with new design. Keep this file name and order.
-        </p>
-        <div className="placeholder-block">Content for HomeNine</div>
+        <div className="home-roadmap__body">
+          <div className="home-roadmap__content">
+            <h2>
+              Not sure where
+              <br />
+              to start?
+            </h2>
+            <Link href="/purpose" className="home-roadmap__cta">
+              <span className="home-roadmap__cta-label">
+                Check Your Roadmap
+              </span>
+              <span className="home-roadmap__cta-icon" aria-hidden="true">
+                <img
+                  src="/images/header/arrow-white.svg"
+                  alt=""
+                  width={20}
+                  height={20}
+                />
+              </span>
+            </Link>
+          </div>
+
+          <div className="home-roadmap__visual" aria-hidden="true">
+            <img
+              src="/images/home/roadmap/visual.png"
+              alt=""
+              width={1376}
+              height={1188}
+            />
+          </div>
+        </div>
       </div>
     </section>
   );

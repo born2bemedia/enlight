@@ -3,18 +3,42 @@ import Link from "next/link";
 
 function HomeFirst() {
   return (
-    <section className="section home-hero">
+    <section className="home-hero">
       <div className="_container">
-        <span className="section-label">HomeFirst</span>
-        <h1 className="section-title">How to start your crypto marketing</h1>
-        <p className="section-text">
-          Hero placeholder — replace with new design. Same section order as v1.
-        </p>
-        <div className="placeholder-block">
-          <Link href="/contact-us" className="main-button">
-            Get Started
+        <div className="home-hero__content">
+          <div className="home-hero__text">
+            <h1>
+              Marketing Built
+              <br />
+              for Crypto
+            </h1>
+            <p>
+              Grow your visibility, reputation and community with strategies
+              designed specifically for crypto projects.
+            </p>
+          </div>
+
+          <Link href="/contact-us" className="home-hero__cta">
+            <span className="home-hero__cta-label">Start</span>
+            <span className="home-hero__cta-icon" aria-hidden="true">
+              <img
+                src="/images/header/arrow-green.svg"
+                alt=""
+                width={20}
+                height={20}
+              />
+            </span>
           </Link>
         </div>
+      </div>
+
+      <div className="home-hero__visual" aria-hidden="true">
+        <img
+          src="/images/home/hero-cubes.jpg"
+          alt=""
+          width={1024}
+          height={962}
+        />
       </div>
     </section>
   );
