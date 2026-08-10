@@ -1,0 +1,22 @@
+@import "mixin";
+
+.policy-page,
+.policy-top,
+.policy-content {
+  padding: 48px 0 40px;
+
+  h1 {
+    margin: 0 0 24px;
+    font-size: 36px;
+  }
+
+  h2 {
+    margin: 32px 0 12px;
+    font-size: 22px;
+  }
+
+  p,
+  li {
+    color: var(--color-text-muted);
+  }
+}

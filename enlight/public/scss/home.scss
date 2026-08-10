@@ -1,0 +1,8 @@
+/* Stub — rebuild with new design */
+@import "mixin";
+
+.home-hero {
+  min-height: calc(100vh - var(--header-height));
+  display: flex;
+  align-items: center;
+}
