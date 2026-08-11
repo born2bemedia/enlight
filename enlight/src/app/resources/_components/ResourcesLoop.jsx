@@ -21,18 +21,9 @@ const ARTICLES = [
       "When marketing looks the same across thousands of projects, differentiation becomes a competitive advantage. Learn how to stand out.",
     slug: "how-to-differentiate-your-crypto-project-from-competitors",
   },
-  {
-    title: "How to Turn Crypto Community Members into Brand Advocates",
-    excerpt:
-      "Community recommendations can outweigh paid ads. Learn how to turn members into advocates who grow your brand.",
-    slug: "how-to-turn-crypto-community-members-into-brand-advocates",
-  },
-  {
-    title: "Which Platform Is Best for Building a Crypto Community?",
-    excerpt:
-      "Telegram, Discord and X serve different purposes. Choose the right platform for your audience and business objectives.",
-    slug: "which-platform-is-best-for-building-a-crypto-community",
-  },
+  // Hidden until publish window: 15 Aug – 1 Sep 2026
+  // how-to-turn-crypto-community-members-into-brand-advocates (1 Sep)
+  // which-platform-is-best-for-building-a-crypto-community (15 Aug)
   {
     title: "How to Build Authority Before Crypto Investors Find Your Project",
     excerpt:
