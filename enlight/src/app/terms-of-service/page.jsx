@@ -153,6 +153,67 @@ function TermsPage() {
                 any illegal or unauthorised activities.
               </p>
               <h2>
+                <strong>Interactive Marketing Assessment Tools</strong>
+              </h2>
+              <p>
+                Enlight Business provides interactive marketing assessment
+                tools, calculators and questionnaires designed to evaluate
+                various aspects of a project&apos;s marketing performance.
+              </p>
+              <p>
+                Assessment tools may analyse information voluntarily submitted
+                by users, including marketing activities, community presence,
+                website performance, promotional channels, operational
+                capabilities and related business metrics.
+              </p>
+              <p>
+                Assessment results, scores, recommendations and suggested
+                improvement areas are generated automatically using predefined
+                evaluation criteria and are provided solely for informational
+                purposes. They do not constitute professional marketing, legal,
+                financial or business advice and should not be relied upon as
+                the sole basis for commercial decisions.
+              </p>
+              <p>
+                Marketing Health Scores and other generated results represent
+                indicative assessments only and do not guarantee future
+                marketing performance, business growth, search rankings, media
+                visibility, community growth or commercial outcomes.
+              </p>
+              <p>
+                Users remain solely responsible for the accuracy of all
+                information submitted. Incorrect or incomplete information may
+                affect the accuracy of generated results.
+              </p>
+              <p>
+                Enlight Business reserves the right to modify, update or
+                discontinue any assessment methodology, scoring model or
+                interactive tool at any time without prior notice.
+              </p>
+              <h2>
+                <strong>Disclaimer</strong>
+              </h2>
+              <p>
+                Marketing Health Scores, calculators, assessments, reports and
+                other automated outputs available through the Website are
+                generated using predefined evaluation criteria and information
+                provided by users.
+              </p>
+              <p>
+                These results are intended solely for informational purposes and
+                should not be interpreted as professional marketing consulting,
+                business strategy, legal, financial or regulatory advice, nor as
+                a comprehensive audit of a project&apos;s marketing activities.
+              </p>
+              <p>
+                Actual marketing performance depends on numerous factors beyond
+                the scope of the assessment, including market conditions,
+                competition, implementation, budget, product quality and
+                business strategy. Enlight Business does not guarantee any
+                specific marketing, commercial or financial outcome based on the
+                use of these tools.
+              </p>
+              <h2>
                 <strong>Privacy and Personal Information</strong>
               </h2>
               <p>

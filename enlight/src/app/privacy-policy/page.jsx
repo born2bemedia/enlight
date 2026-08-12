@@ -139,6 +139,48 @@ function PrivacyPage() {
                 </li>
               </ol>
               <h2>
+                <strong>Interactive Marketing Assessment Tools</strong>
+              </h2>
+              <p>
+                Enlight Business offers interactive marketing assessments,
+                calculators and analytical tools that help users evaluate the
+                effectiveness of their marketing activities.
+              </p>
+              <p>
+                When using these tools, we may collect information voluntarily
+                submitted by users, including:
+              </p>
+              <ul>
+                <li>marketing assessment responses;</li>
+                <li>website or domain names;</li>
+                <li>community and audience metrics;</li>
+                <li>marketing budgets;</li>
+                <li>team structure and operational information;</li>
+                <li>advertising activities and promotional channels;</li>
+                <li>generated assessment scores and reports;</li>
+                <li>
+                  contact information submitted together with an assessment
+                  request.
+                </li>
+              </ul>
+              <p>We process this information to:</p>
+              <ul>
+                <li>generate personalised assessment results;</li>
+                <li>
+                  provide recommendations based on submitted information;
+                </li>
+                <li>improve our assessment tools and methodologies;</li>
+                <li>analyse aggregated and anonymised usage trends;</li>
+                <li>respond to consultation requests;</li>
+                <li>detect abuse or misuse of our services.</li>
+              </ul>
+              <p>
+                Assessment information is processed confidentially and is not
+                sold to third parties. Aggregated and anonymised statistical
+                information may be used to improve our products, services and
+                analytical models.
+              </p>
+              <h2>
                 <strong>Purposes for using information</strong>
               </h2>
               <p>

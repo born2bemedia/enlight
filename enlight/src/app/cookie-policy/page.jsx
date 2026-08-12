@@ -87,6 +87,39 @@ function PrivacyPage() {
                 </li>
               </ol>
               <h2>
+                <strong>Interactive Assessment Tools</strong>
+              </h2>
+              <p>
+                Our website includes interactive marketing assessments,
+                calculators and analytical tools that use cookies or similar
+                technologies to improve functionality and user experience.
+              </p>
+              <p>These technologies may be used to:</p>
+              <ul>
+                <li>maintain user sessions during assessments;</li>
+                <li>
+                  temporarily store progress while completing questionnaires;
+                </li>
+                <li>improve the performance of interactive tools;</li>
+                <li>
+                  analyse anonymous interaction with assessment features;
+                </li>
+                <li>detect technical issues and prevent misuse.</li>
+              </ul>
+              <p>
+                Assessment responses are not stored in cookies for advertising
+                purposes.
+              </p>
+              <h2>
+                <strong>Analytics</strong>
+              </h2>
+              <p>
+                We may collect anonymous information about how visitors interact
+                with our calculators, assessment tools and interactive features
+                to improve usability, functionality and overall website
+                performance.
+              </p>
+              <h2>
                 <strong>How to control cookies</strong>
               </h2>
               <p>
