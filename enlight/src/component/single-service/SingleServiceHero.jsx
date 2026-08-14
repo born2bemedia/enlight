@@ -1,20 +1,48 @@
 import React from "react";
 
-function SingleServiceHero({ title = "", subtitle = "", image = "" }) {
+function SingleServiceHero({
+  title = "",
+  subtitle = "",
+  image = "",
+  flipVisual = false,
+  visualSize = "",
+  wide = false,
+  sectionClass = "",
+}) {
+  const visualClass = [
+    "service-hero__visual",
+    flipVisual ? "is-flipped" : "",
+    visualSize === "lg" ? "is-lg" : "",
+    visualSize === "xl" ? "is-xl" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+  const size = visualSize === "xl" ? 1199 : visualSize === "lg" ? 1003 : 865;
+  const src =
+    image.startsWith("/") || image.startsWith("http")
+      ? image
+      : `/images/single-service/${image}`;
+
   return (
-    <section className="section">
+    <section className={`service-hero${sectionClass ? ` ${sectionClass}` : ""}`}>
       <div className="_container">
-        <span className="section-label">SingleServiceHero</span>
-        <h1
-          className="section-title"
-          dangerouslySetInnerHTML={{ __html: title }}
-        />
-        <p
-          className="section-text"
-          dangerouslySetInnerHTML={{ __html: subtitle }}
-        />
-        <div className="placeholder-block">Image: {image || "—"}</div>
+        <div
+          className={`service-hero__content${wide ? " is-wide" : ""}`}
+        >
+          <h1 dangerouslySetInnerHTML={{ __html: title }} />
+          <p dangerouslySetInnerHTML={{ __html: subtitle }} />
+        </div>
       </div>
+      {image ? (
+        <div className={visualClass} aria-hidden="true">
+          <img
+            src={src}
+            alt=""
+            width={size}
+            height={size}
+          />
+        </div>
+      ) : null}
     </section>
   );
 }

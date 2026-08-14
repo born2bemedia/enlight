@@ -26,6 +26,12 @@ const services = [
     description:
       "In a market crowded with similar projects, a strong brand creates differentiation. We develop clear positioning and a consistent visual identity that helps your project stand out and remain recognisable across every touchpoint.",
   },
+  {
+    href: "/media-and-platforms",
+    title: "Media and Platforms",
+    description:
+      "We've carefully chosen over 50 reputable advertising networks and media channels to promote your project, reaching a specialised crypto audience across 114 countries.",
+  },
 ];
 
 function ServicesSecond() {

@@ -1,17 +1,20 @@
 import React from "react";
 
-function SingleServiceFourth({ results = [] }) {
+function SingleServiceFourth({
+  title = "Results you can expect",
+  results = [],
+  theme = "",
+}) {
   return (
-    <section className="section">
+    <section className={`service-results${theme ? ` is-${theme}` : ""}`}>
       <div className="_container">
-        <span className="section-label">SingleServiceFourth</span>
-        <h2 className="section-title">Results</h2>
-        <div className="placeholder-block">
-          {results.map((item, i) => (
-            <div key={i} style={{ marginBottom: 12 }}>
-              <strong>{item.title}</strong>
-              <div>{item.content}</div>
-            </div>
+        <h2>{title}</h2>
+        <div className="service-results__grid">
+          {results.map((item) => (
+            <article key={item.id} className="service-result">
+              <p className="service-result__value">{item.value}</p>
+              <p className="service-result__label">{item.label}</p>
+            </article>
           ))}
         </div>
       </div>

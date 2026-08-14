@@ -52,6 +52,7 @@ function MobileMenu() {
               Reputation, Experience and Expertise
             </Link>
             <Link href="/branding-solutions">Branding Solutions</Link>
+            <Link href="/media-and-platforms">Media and Platforms</Link>
           </div>
           <Link href="/resources">Resources</Link>
           <Link href="/team">Team</Link>
