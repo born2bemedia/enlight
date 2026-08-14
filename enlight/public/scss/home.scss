@@ -679,8 +679,11 @@
   gap: 32px;
   height: 56px;
   padding: 4px 4px 4px 16px;
+  border: 0;
   border-radius: 2px;
   background: #f0f0f7;
+  font: inherit;
+  cursor: pointer;
   transition: opacity 0.2s ease;
 
   &:hover {
