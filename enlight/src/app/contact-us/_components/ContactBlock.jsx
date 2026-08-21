@@ -61,10 +61,10 @@ function ContactBlock() {
                     info@enlight.business
                   </a>
                 </div>
-                <div className="contact-detail">
-                  <p>Talk to Enlight:</p>
-                  <a href="tel:+447458149408">+44 745 814 94 08</a>
-                </div>
+                {/*<div className="contact-detail">*/}
+                {/*  <p>Talk to Enlight:</p>*/}
+                {/*  <a href="tel:+447458149408">+44 745 814 94 08</a>*/}
+                {/*</div>*/}
               </div>
             </div>
           </div>

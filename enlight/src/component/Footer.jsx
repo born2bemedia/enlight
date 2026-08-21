@@ -52,15 +52,15 @@ function Footer() {
                   />
                   <span>info@enlight.business</span>
                 </a>
-                <a className="footer-contact" href="tel:+447458149408">
-                  <img
-                    src="/images/footer/phone.svg"
-                    alt=""
-                    width={24}
-                    height={24}
-                  />
-                  <span>+44 745 814 94 08</span>
-                </a>
+                {/*<a className="footer-contact" href="tel:+447458149408">*/}
+                {/*  <img*/}
+                {/*    src="/images/footer/phone.svg"*/}
+                {/*    alt=""*/}
+                {/*    width={24}*/}
+                {/*    height={24}*/}
+                {/*  />*/}
+                {/*  <span>+44 745 814 94 08</span>*/}
+                {/*</a>*/}
               </div>
 
               <div className="footer-addresses">
