@@ -22,7 +22,7 @@ const ARTICLES = [
     slug: "how-to-differentiate-your-crypto-project-from-competitors",
   },
   // Hidden until publish window: 15 Aug – 1 Sep 2026
-  // how-to-turn-crypto-community-members-into-brand-advocates (1 Sep)
+  // how-to-turn-crypto-community-members-into-brand-advocates (21 Aug)
   // which-platform-is-best-for-building-a-crypto-community (15 Aug)
   {
     title: "How to Build Authority Before Crypto Investors Find Your Project",
