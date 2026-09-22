@@ -13,8 +13,20 @@ const FEATURED = {
     "/images/resources/heroes/how-to-position-a-crypto-project-in-a-competitive-market.png",
 };
 
-// Figma Article 15 → 1 (newest first; Article 1 last on page 3)
+// Figma Article 17 → 1 (newest first; Article 1 last on page 3)
 const ARTICLES = [
+  {
+    title: "What Standard Marketing Approaches Fail in Crypto and Why",
+    excerpt:
+      "Crypto marketing does not fail because the industry is too difficult to market. It fails when conventional marketing logic is applied to a market with fundamentally different constraints.",
+    slug: "what-standard-marketing-approaches-fail-in-crypto-and-why",
+  },
+  {
+    title: "Can a General Marketing Team Grow a Crypto Project?",
+    excerpt:
+      "A strong marketing team does not automatically make a strong crypto marketing team. The real question is whether your team has the expertise to make the right marketing decisions for crypto.",
+    slug: "can-a-general-marketing-team-grow-a-crypto-project",
+  },
   {
     title: "How to differentiate your crypto project from competitors",
     excerpt:
