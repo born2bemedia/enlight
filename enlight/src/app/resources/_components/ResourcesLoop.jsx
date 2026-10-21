@@ -13,8 +13,15 @@ const FEATURED = {
     "/images/resources/heroes/how-to-position-a-crypto-project-in-a-competitive-market.png",
 };
 
-// Figma Article 17 → 1 (newest first; Article 1 last on page 3)
+// Figma Article 20 → 1 (newest first; Article 1 last on page 3)
 const ARTICLES = [
+  {
+    title:
+      "Crypto Advertising Compliance: Platform Rules, Legal Risks and What Marketers Must Know",
+    excerpt:
+      "A crypto ad can be rejected even when its claims are accurate — or approved by a platform and still breach local financial promotion rules. Learn what to check before launch.",
+    slug: "crypto-advertising-compliance-platform-rules-legal-risks-and-what-marketers-must-know",
+  },
   {
     title: "What Standard Marketing Approaches Fail in Crypto and Why",
     excerpt:
