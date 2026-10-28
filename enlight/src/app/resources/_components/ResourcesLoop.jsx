@@ -13,8 +13,14 @@ const FEATURED = {
     "/images/resources/heroes/how-to-position-a-crypto-project-in-a-competitive-market.png",
 };
 
-// Figma Article 20 → 1 (newest first; Article 1 last on page 3)
+// Figma Article 22 → 1 (newest first; Article 1 last on page 3)
 const ARTICLES = [
+  {
+    title: "How Do News and Market Sentiment Affect Crypto Marketing?",
+    excerpt:
+      "A regulatory announcement, security incident or sudden market correction can change what crypto audiences discuss and which brands they trust. Learn why campaigns must be read in market context.",
+    slug: "how-do-news-and-market-sentiment-affect-crypto-marketing",
+  },
   {
     title:
       "Crypto Advertising Compliance: Platform Rules, Legal Risks and What Marketers Must Know",
