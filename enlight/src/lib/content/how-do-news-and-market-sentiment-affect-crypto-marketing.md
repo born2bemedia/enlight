@@ -1,7 +1,7 @@
 ---
 title: "How Do News and Market Sentiment Affect Crypto Marketing?"
 image: "heroes/how-do-news-and-market-sentiment-affect-crypto-marketing.png"
-date: "1 September 2026"
+date: "29 October 2026"
 read_time: "7 min"
 excerpt: "A regulatory announcement, security incident or sudden market correction can change what crypto audiences discuss, which brands they trust and how they interpret promotional messages. Learn why campaign performance must be read in market context."
 seo_title: ""
