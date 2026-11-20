@@ -5,15 +5,15 @@ import Link from "next/link";
 import ResourceCard from "./ResourceCard";
 
 const FEATURED = {
-  title: "How to Position a Crypto Project in a Competitive Market",
+  title: "Crypto Marketing in 2026: Why Industry Experience Matters More Than Ever",
   excerpt:
-    "More than 15,000 cryptocurrencies and thousands of blockchain businesses compete for visibility today. Yet if you visit many crypto websites, you'll find remarkably similar messaging—this is not a branding problem, it is a positioning problem.",
-  slug: "how-to-position-a-crypto-project-in-a-competitive-market",
+    "Regulatory status, advertising policies and product mechanics now shape what crypto marketing can do. See what the 2026 market evidence means for choosing a marketing partner with genuine industry experience.",
+  slug: "crypto-marketing-in-2026-why-industry-experience-matters-more-than-ever",
   image:
-    "/images/resources/heroes/how-to-position-a-crypto-project-in-a-competitive-market.png",
+    "/images/resources/heroes/crypto-marketing-in-2026-why-industry-experience-matters-more-than-ever.png",
 };
 
-// Figma Article 22 → 1 (newest first; Article 1 last on page 3)
+// Figma Article 23 → 1 (newest first; Article 1 last on page 3)
 const ARTICLES = [
   {
     title: "How Do News and Market Sentiment Affect Crypto Marketing?",
@@ -27,6 +27,12 @@ const ARTICLES = [
     excerpt:
       "A crypto ad can be rejected even when its claims are accurate — or approved by a platform and still breach local financial promotion rules. Learn what to check before launch.",
     slug: "crypto-advertising-compliance-platform-rules-legal-risks-and-what-marketers-must-know",
+  },
+  {
+    title: "What Are the Key Crypto Trends to Watch in 2027?",
+    excerpt:
+      "Stablecoins, tokenisation, regulation, institutional infrastructure and AI payments will shape the crypto market in 2027. Learn what these trends mean for how projects communicate and market.",
+    slug: "what-are-the-key-crypto-trends-to-watch-in-2027",
   },
   {
     title: "What Standard Marketing Approaches Fail in Crypto and Why",
@@ -54,6 +60,12 @@ const ARTICLES = [
     excerpt:
       "Investors rarely back projects they've never heard of. Learn how to build authority before the first investment conversation begins.",
     slug: "how-to-build-authority-before-crypto-investors-find-your-project",
+  },
+  {
+    title: "How to Position a Crypto Project in a Competitive Market",
+    excerpt:
+      "More than 15,000 cryptocurrencies and thousands of blockchain businesses compete for visibility today. Yet if you visit many crypto websites, you'll find remarkably similar messaging—this is not a branding problem, it is a positioning problem.",
+    slug: "how-to-position-a-crypto-project-in-a-competitive-market",
   },
   {
     title: "How to Build Trust in a Crypto Project",
